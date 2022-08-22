@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ReAgnus-MegAChip)(type Legacy)(uri ${KIPRJMOD}/ReAgnus-MegAChip.lib)(options "")(descr ""))
+)
