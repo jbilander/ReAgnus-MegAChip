@@ -1,3 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP GW1N-UV9LQ144
+D GOWIN GW1N FPGA
+K GOWIN GW1N FPGA
+F https://www.mouser.com/datasheet/2/1033/GW1N_series_of_FPGA_Products_Data_Sheet-1830682.pdf
+$ENDCMP
+#
 #End Doc Library
