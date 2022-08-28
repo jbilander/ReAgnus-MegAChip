@@ -53,8 +53,8 @@ U 1 1 632F85D3
 P 3350 3600
 AR Path="/632F85D3" Ref="U?"  Part="1" 
 AR Path="/632D3BDF/632F85D3" Ref="U?"  Part="1" 
-AR Path="/632F104D/632F85D3" Ref="U5"  Part="1" 
-F 0 "U5" H 3400 3450 60  0000 R CNN
+AR Path="/632F104D/632F85D3" Ref="U7"  Part="1" 
+F 0 "U7" H 3400 3450 60  0000 R CNN
 F 1 "GW1N-UV9LQ144" H 3750 3600 60  0000 R CNN
 F 2 "Package_QFP:EQFP-144-1EP_20x20mm_P0.5mm_EP5x5mm" H 3350 3700 60  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/1033/GW1N_series_of_FPGA_Products_Data_Sheet-1830682.pdf" H 4800 4800 60  0001 C CNN
