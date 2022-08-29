@@ -368,4 +368,44 @@ Text GLabel 6700 3550 2    50   Input ~ 0
 DRA1|DRA0_3V3
 Text GLabel 6700 3650 2    50   Input ~ 0
 DRA0_3V3|GND
+Text GLabel -500 4050 2    50   Input ~ 0
+BLIT_3V3
+Text GLabel -500 3950 2    50   Input ~ 0
+WE_3V3
+Text GLabel -500 3850 2    50   Output ~ 0
+RW_3V3
+Text GLabel -500 3750 2    50   Output ~ 0
+REGEN_3V3
+Text GLabel -500 3650 2    50   Output ~ 0
+AS_3V3
+Text GLabel 900  3300 0    50   Input ~ 0
+RAMEN_3V3
+Text GLabel 900  3200 0    50   Input ~ 0
+28M_3V3
+Text GLabel 7400 1950 2    50   Input ~ 0
+CCKQ|7M_3V3
+Text GLabel 7400 1850 2    50   Input ~ 0
+CCK|CCKQ_3V3
+Text GLabel 7400 1750 2    50   Input ~ 0
+14M|CCK_3V3
+Text GLabel 7400 2050 2    50   Input ~ 0
+7M|CDAC_3V3
+Text GLabel 7400 2150 2    50   BiDi ~ 0
+CDAC|XCLKEN_3V3
+Text GLabel 900  5000 0    50   Output ~ 0
+RGA1_3V3
+Text GLabel 900  4900 0    50   Output ~ 0
+RGA2_3V3
+Text GLabel 900  4800 0    50   Output ~ 0
+RGA3_3V3
+Text GLabel 900  4700 0    50   Output ~ 0
+RGA4_3V3
+Text GLabel 900  4600 0    50   Output ~ 0
+RGA5_3V3
+Text GLabel 900  4500 0    50   Output ~ 0
+RGA6_3V3
+Text GLabel 900  4400 0    50   Output ~ 0
+RGA7_3V3
+Text GLabel 900  3600 0    50   Output ~ 0
+RGA8_3V3
 $EndSCHEMATC
