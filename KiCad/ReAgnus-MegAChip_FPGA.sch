@@ -13,7 +13,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 3900 6350 3    50   Input ~ 0
+Text GLabel 7000 4300 0    50   Input ~ 0
 GND
 Text GLabel 7300 5200 2    50   Input ~ 0
 VCC
@@ -27,8 +27,8 @@ U 1 1 632F85C6
 P 7050 5100
 AR Path="/632F85C6" Ref="C?"  Part="1" 
 AR Path="/632D3BDF/632F85C6" Ref="C?"  Part="1" 
-AR Path="/632F104D/632F85C6" Ref="C2"  Part="1" 
-F 0 "C2" H 7142 5100 50  0000 L CNN
+AR Path="/632F104D/632F85C6" Ref="C9"  Part="1" 
+F 0 "C9" H 7142 5100 50  0000 L CNN
 F 1 "C_Small" H 7142 5055 50  0001 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7050 5100 50  0001 C CNN
 F 3 "~" H 7050 5100 50  0001 C CNN
@@ -56,7 +56,7 @@ AR Path="/632D3BDF/632F85D3" Ref="U?"  Part="1"
 AR Path="/632F104D/632F85D3" Ref="U7"  Part="1" 
 F 0 "U7" H 3400 3450 60  0000 R CNN
 F 1 "GW1N-UV9LQ144" H 3750 3600 60  0000 R CNN
-F 2 "Package_QFP:EQFP-144-1EP_20x20mm_P0.5mm_EP5x5mm" H 3350 3700 60  0001 C CNN
+F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 3350 3700 60  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/1033/GW1N_series_of_FPGA_Products_Data_Sheet-1830682.pdf" H 4800 4800 60  0001 C CNN
 	1    3350 3600
 	1    0    0    -1  
@@ -137,7 +137,7 @@ A14
 Text GLabel 8600 2050 0    50   Input ~ 0
 A13
 Text GLabel 8600 2150 0    50   Input ~ 0
-A12
+A12_3V3
 Text GLabel 8600 2250 0    50   Input ~ 0
 A11
 Text GLabel 8600 2350 0    50   Input ~ 0
@@ -288,4 +288,84 @@ Text GLabel 10400 4250 2    50   Output ~ 0
 7M|CDAC
 Text GLabel 10400 4900 2    50   Input ~ 0
 GND|NTSC
+Text GLabel 5800 5350 2    50   Input ~ 0
+A18_3V3
+Text GLabel 5800 5450 2    50   Input ~ 0
+A19_3V3
+Text GLabel 5800 5250 2    50   Input ~ 0
+A17_3V3
+Text GLabel 5800 5050 2    50   Input ~ 0
+A16_3V3
+Text GLabel 5800 4950 2    50   Input ~ 0
+A15_3V3
+Text GLabel 5800 4850 2    50   Input ~ 0
+A14_3V3
+Text GLabel 5800 4750 2    50   Input ~ 0
+A13_3V3
+Text GLabel 5800 3850 2    50   Input ~ 0
+A12_3V3
+Text GLabel 5800 3950 2    50   Input ~ 0
+A11_3V3
+Text GLabel 5800 4050 2    50   Input ~ 0
+A10_3V3
+Text GLabel 5800 4150 2    50   Input ~ 0
+A9_3V3
+Text GLabel 5800 4250 2    50   Input ~ 0
+A8_3V3
+Text GLabel 5800 4350 2    50   Input ~ 0
+A7_3V3
+Text GLabel 5800 4450 2    50   Input ~ 0
+A6_3V3
+Text GLabel 5800 4600 2    50   Input ~ 0
+A5_3V3
+Text GLabel 5800 5150 2    50   Input ~ 0
+XLCK|A20_3V3
+Text GLabel 4900 6050 3    50   BiDi ~ 0
+HSYNC_3V3
+Text GLabel 5000 6050 3    50   Output ~ 0
+CSYNC_3V3
+Text GLabel 5800 5650 2    50   BiDi ~ 0
+VSYNC_3V3
+Text GLabel 5800 5550 2    50   Input ~ 0
+LPEN_3V3
+Text GLabel 5800 3750 2    50   Input ~ 0
+A4_3V3
+Text GLabel 5800 3650 2    50   Input ~ 0
+A3_3V3
+Text GLabel 5800 3550 2    50   Input ~ 0
+A2_3V3
+Text GLabel 5800 3450 2    50   Input ~ 0
+A1_3V3
+Text GLabel 5800 3150 2    50   Output ~ 0
+RAS0|RAS_3V3
+Text GLabel 5800 3300 2    50   Output ~ 0
+RAS1|DRA9_3V3
+Text GLabel 6700 1750 2    50   Input ~ 0
+DRA9|CASU_3V3
+Text GLabel 6700 1850 2    50   Input ~ 0
+CASU|CASL_3V3
+Text GLabel 6700 1950 2    50   Input ~ 0
+CASL|UDS_3V3
+Text GLabel 6700 2150 2    50   Output ~ 0
+LDS|UDS_3V3
+Text GLabel 6700 2250 2    50   Output ~ 0
+DRA8|LDS_3V3
+Text GLabel 6700 2350 2    50   Input ~ 0
+DRA8|DRA7_3V3
+Text GLabel 6700 2850 2    50   Input ~ 0
+DRA7|DRA6_3V3
+Text GLabel 6700 3050 2    50   Input ~ 0
+DRA6|DRA5_3V3
+Text GLabel 6700 3150 2    50   Input ~ 0
+DRA5|DRA4_3V3
+Text GLabel 6700 3250 2    50   Input ~ 0
+DRA4|DRA3_3V3
+Text GLabel 6700 3350 2    50   Input ~ 0
+DRA3|DRA2_3V3
+Text GLabel 6700 3450 2    50   Input ~ 0
+DRA2|DRA1_3V3
+Text GLabel 6700 3550 2    50   Input ~ 0
+DRA1|DRA0_3V3
+Text GLabel 6700 3650 2    50   Input ~ 0
+DRA0_3V3|GND
 $EndSCHEMATC
