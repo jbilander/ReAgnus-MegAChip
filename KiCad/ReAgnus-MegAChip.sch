@@ -348,7 +348,7 @@ Text GLabel 2800 1650 2    50   Input ~ 0
 CASU|CASL
 Text GLabel 2800 4700 2    50   Output ~ 0
 GND|NTSC
-Text GLabel 9750 4600 0    50   Input ~ 0
+Text GLabel 9750 4500 0    50   Input ~ 0
 A19
 Text GLabel 9750 4800 0    50   Input ~ 0
 A18
@@ -486,7 +486,7 @@ Text GLabel 9750 3350 0    50   BiDi ~ 0
 DRD14
 Text GLabel 9750 3450 0    50   BiDi ~ 0
 DRD15
-Text GLabel 9750 4500 0    50   Input ~ 0
+Text GLabel 9750 4600 0    50   Input ~ 0
 XLCK|A20
 Text GLabel 7450 4800 0    50   Input ~ 0
 DRA8|LDS
@@ -680,7 +680,7 @@ Text GLabel 10750 5600 2    50   Input ~ 0
 GND
 Text GLabel 10750 4700 2    50   Input ~ 0
 GND
-Text GLabel 10750 4600 2    50   Output ~ 0
+Text GLabel 10750 4800 2    50   Output ~ 0
 XLCK|A20_3V3
 Text GLabel 10750 4000 2    50   Input ~ 0
 GND
@@ -688,7 +688,7 @@ Wire Wire Line
 	10750 4000 10750 4100
 Text GLabel 10750 4900 2    50   Output ~ 0
 A18_3V3
-Text GLabel 10750 4800 2    50   Output ~ 0
+Text GLabel 10750 4600 2    50   Output ~ 0
 A19_3V3
 Text GLabel 10750 5000 2    50   Output ~ 0
 A17_3V3

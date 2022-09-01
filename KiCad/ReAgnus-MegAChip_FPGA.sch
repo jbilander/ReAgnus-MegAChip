@@ -13,8 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 7000 4300 0    50   Input ~ 0
-GND
 Text GLabel 7300 5200 2    50   Input ~ 0
 VCC
 Text GLabel 7300 5000 2    50   Input ~ 0
@@ -122,290 +120,204 @@ Wire Wire Line
 Connection ~ 2550 1150
 Wire Wire Line
 	2550 1150 2450 1150
-Text GLabel 8600 1450 0    50   Input ~ 0
-A19
-Text GLabel 8600 1550 0    50   Input ~ 0
-A18
-Text GLabel 8600 1650 0    50   Input ~ 0
-A17
-Text GLabel 8600 1750 0    50   Input ~ 0
-A16
-Text GLabel 8600 1850 0    50   Input ~ 0
-A15
-Text GLabel 8600 1950 0    50   Input ~ 0
-A14
-Text GLabel 8600 2050 0    50   Input ~ 0
-A13
-Text GLabel 8600 2150 0    50   Input ~ 0
-A12_3V3
-Text GLabel 8600 2250 0    50   Input ~ 0
-A11
-Text GLabel 8600 2350 0    50   Input ~ 0
-A10
-Text GLabel 8600 2450 0    50   Input ~ 0
-A9
-Text GLabel 8600 2550 0    50   Input ~ 0
-A8
-Text GLabel 8600 2650 0    50   Input ~ 0
-A7
-Text GLabel 8600 2750 0    50   Input ~ 0
-A6
-Text GLabel 8600 2850 0    50   Input ~ 0
-A5
-Text GLabel 8600 2950 0    50   Input ~ 0
-A4
-Text GLabel 8600 3050 0    50   Input ~ 0
-A3
-Text GLabel 8600 3150 0    50   Input ~ 0
-A2
-Text GLabel 8600 3250 0    50   Input ~ 0
-A1
-Text GLabel 9600 1100 1    50   Output ~ 0
-BLIT
-Text GLabel 9500 1100 1    50   Input ~ 0
-BLISS
-Text GLabel 9400 1100 1    50   Input ~ 0
-REGEN
-Text GLabel 9300 1100 1    50   Input ~ 0
-RAMEN
-Text GLabel 10400 5450 2    50   Input ~ 0
-DMAL
-Text GLabel 10400 5350 2    50   Output ~ 0
-INTR
-Text GLabel 10400 5250 2    50   Input ~ 0
-RESET
-Text GLabel 10400 4750 2    50   BiDi ~ 0
-HSYNC
-Text GLabel 10400 4650 2    50   Output ~ 0
-CSYNC
-Text GLabel 10400 4550 2    50   BiDi ~ 0
-VSYNC
-Text GLabel 10400 4450 2    50   Input ~ 0
-LPEN
-Text GLabel 10400 3750 2    50   Output ~ 0
-RGA1
-Text GLabel 10400 3650 2    50   Output ~ 0
-RGA2
-Text GLabel 10400 3550 2    50   Output ~ 0
-RGA3
-Text GLabel 10400 3450 2    50   Output ~ 0
-RGA4
-Text GLabel 10400 3350 2    50   Output ~ 0
-RGA5
-Text GLabel 10400 3250 2    50   Output ~ 0
-RGA6
-Text GLabel 10400 3150 2    50   Output ~ 0
-RGA7
-Text GLabel 10400 3050 2    50   Output ~ 0
-RGA8
-Text GLabel 10400 2900 2    50   Output ~ 0
+Text GLabel 9350 4100 2    50   Output ~ 0
 DRA0|GND
-Text GLabel 10400 2800 2    50   Output ~ 0
+Text GLabel 9350 4000 2    50   Output ~ 0
 DRA1|DRA0
-Text GLabel 10400 2700 2    50   Output ~ 0
+Text GLabel 9350 3900 2    50   Output ~ 0
 DRA2|DRA1
-Text GLabel 10400 2600 2    50   Output ~ 0
+Text GLabel 9350 3800 2    50   Output ~ 0
 DRA3|DRA2
-Text GLabel 10400 2500 2    50   Output ~ 0
+Text GLabel 9350 3700 2    50   Output ~ 0
 DRA4|DRA3
-Text GLabel 10400 2400 2    50   Output ~ 0
+Text GLabel 9350 3600 2    50   Output ~ 0
 DRA5|DRA4
-Text GLabel 10400 2300 2    50   Output ~ 0
+Text GLabel 9350 3500 2    50   Output ~ 0
 DRA6|DRA5
-Text GLabel 10400 2200 2    50   Output ~ 0
+Text GLabel 9350 3400 2    50   Output ~ 0
 DRA7|DRA6
-Text GLabel 10400 2100 2    50   Output ~ 0
+Text GLabel 9350 3300 2    50   Output ~ 0
 DRA8|DRA7
-Text GLabel 10400 1650 2    50   Output ~ 0
+Text GLabel 9350 2850 2    50   Output ~ 0
 RAS1|DRA9
-Text GLabel 10400 1550 2    50   Output ~ 0
+Text GLabel 9350 2750 2    50   Output ~ 0
 RAS0|RAS
-Text GLabel 10400 1850 2    50   Output ~ 0
+Text GLabel 9350 3050 2    50   Output ~ 0
 CASU|CASL
-Text GLabel 10400 1450 2    50   Output ~ 0
+Text GLabel 9350 2650 2    50   Output ~ 0
 WE
-Text GLabel 9150 5900 3    50   Input ~ 0
-28M
 Text GLabel 8600 5450 0    50   Input ~ 0
 AS
 Text GLabel 8600 5350 0    50   Input ~ 0
 RW
-Text GLabel 8600 4900 0    50   BiDi ~ 0
-DRD0
-Text GLabel 8600 4800 0    50   BiDi ~ 0
-DRD1
-Text GLabel 8600 4700 0    50   BiDi ~ 0
-DRD2
-Text GLabel 8600 4600 0    50   BiDi ~ 0
-DRD3
-Text GLabel 8600 4500 0    50   BiDi ~ 0
-DRD4
-Text GLabel 8600 4400 0    50   BiDi ~ 0
-DRD5
-Text GLabel 8600 4300 0    50   BiDi ~ 0
-DRD6
-Text GLabel 8600 4200 0    50   BiDi ~ 0
-DRD7
-Text GLabel 8600 4100 0    50   BiDi ~ 0
-DRD8
-Text GLabel 8600 4000 0    50   BiDi ~ 0
-DRD9
-Text GLabel 8600 3900 0    50   BiDi ~ 0
-DRD10
-Text GLabel 8600 3800 0    50   BiDi ~ 0
-DRD11
-Text GLabel 8600 3700 0    50   BiDi ~ 0
-DRD12
-Text GLabel 8600 3600 0    50   BiDi ~ 0
-DRD13
-Text GLabel 8600 3500 0    50   BiDi ~ 0
-DRD14
-Text GLabel 8600 3400 0    50   BiDi ~ 0
-DRD15
-Text GLabel 10400 5100 2    50   Input ~ 0
-VCC
-Text GLabel 9900 5900 3    50   Input ~ 0
-GND
-Text GLabel 8600 1350 0    50   Input ~ 0
-XLCK|A20
+Text GLabel 3450 6050 3    50   BiDi ~ 0
+DRD0_3V3
+Text GLabel 3550 6050 3    50   BiDi ~ 0
+DRD1_3V3
+Text GLabel 3650 6050 3    50   BiDi ~ 0
+DRD2_3V3
+Text GLabel 3750 6050 3    50   BiDi ~ 0
+DRD3_3V3
+Text GLabel 3850 6050 3    50   BiDi ~ 0
+DRD4_3V3
+Text GLabel 3950 6050 3    50   BiDi ~ 0
+DRD5_3V3
+Text GLabel 4050 6050 3    50   BiDi ~ 0
+DRD6_3V3
+Text GLabel 4150 6050 3    50   BiDi ~ 0
+DRD7_3V3
+Text GLabel 4250 6050 3    50   BiDi ~ 0
+DRD8_3V3
+Text GLabel 4350 6050 3    50   BiDi ~ 0
+DRD9_3V3
+Text GLabel 4450 6050 3    50   BiDi ~ 0
+DRD10_3V3
+Text GLabel 4550 6050 3    50   BiDi ~ 0
+DRD11_3V3
+Text GLabel 4650 6050 3    50   BiDi ~ 0
+DRD12_3V3
+Text GLabel 5000 6050 3    50   BiDi ~ 0
+DRD13_3V3
+Text GLabel 4900 6050 3    50   BiDi ~ 0
+DRD14_3V3
+Text GLabel 4800 6050 3    50   BiDi ~ 0
+DRD15_3V3
 Text GLabel 8600 5150 0    50   Input ~ 0
 DRA8|LDS
 Text GLabel 8600 5250 0    50   Input ~ 0
 LDS|UDS
-Text GLabel 10400 1950 2    50   Output ~ 0
+Text GLabel 9350 3150 2    50   Output ~ 0
 CASL|UDS
-Text GLabel 10400 1750 2    50   Output ~ 0
+Text GLabel 9350 2950 2    50   Output ~ 0
 DRA9|CASU
-Text GLabel 9250 5900 3    50   Input ~ 0
-CDAC|XCLKEN
-Text GLabel 10400 3950 2    50   Output ~ 0
-14M|CCK
-Text GLabel 10400 4050 2    50   Output ~ 0
-CCK|CCKQ
-Text GLabel 10400 4150 2    50   Output ~ 0
-CCKQ|7M
-Text GLabel 10400 4250 2    50   Output ~ 0
-7M|CDAC
-Text GLabel 10400 4900 2    50   Input ~ 0
+Text GLabel 8800 5000 2    50   Input ~ 0
 GND|NTSC
-Text GLabel 5800 5350 2    50   Input ~ 0
-A18_3V3
-Text GLabel 5800 5450 2    50   Input ~ 0
-A19_3V3
-Text GLabel 5800 5250 2    50   Input ~ 0
-A17_3V3
 Text GLabel 5800 5050 2    50   Input ~ 0
-A16_3V3
+A18_3V3
+Text GLabel 5800 5250 2    50   Input ~ 0
+A19_3V3
 Text GLabel 5800 4950 2    50   Input ~ 0
-A15_3V3
+A17_3V3
 Text GLabel 5800 4850 2    50   Input ~ 0
-A14_3V3
+A16_3V3
 Text GLabel 5800 4750 2    50   Input ~ 0
-A13_3V3
-Text GLabel 5800 3850 2    50   Input ~ 0
-A12_3V3
-Text GLabel 5800 3950 2    50   Input ~ 0
-A11_3V3
-Text GLabel 5800 4050 2    50   Input ~ 0
-A10_3V3
-Text GLabel 5800 4150 2    50   Input ~ 0
-A9_3V3
-Text GLabel 5800 4250 2    50   Input ~ 0
-A8_3V3
-Text GLabel 5800 4350 2    50   Input ~ 0
-A7_3V3
-Text GLabel 5800 4450 2    50   Input ~ 0
-A6_3V3
+A15_3V3
 Text GLabel 5800 4600 2    50   Input ~ 0
+A14_3V3
+Text GLabel 5800 4450 2    50   Input ~ 0
+A13_3V3
+Text GLabel 5800 4350 2    50   Input ~ 0
+A12_3V3
+Text GLabel 5800 3650 2    50   Input ~ 0
+A11_3V3
+Text GLabel 5800 3750 2    50   Input ~ 0
+A10_3V3
+Text GLabel 5800 3850 2    50   Input ~ 0
+A9_3V3
+Text GLabel 5800 3950 2    50   Input ~ 0
+A8_3V3
+Text GLabel 5800 4050 2    50   Input ~ 0
+A7_3V3
+Text GLabel 5800 4150 2    50   Input ~ 0
+A6_3V3
+Text GLabel 5800 4250 2    50   Input ~ 0
 A5_3V3
 Text GLabel 5800 5150 2    50   Input ~ 0
 XLCK|A20_3V3
-Text GLabel 4900 6050 3    50   BiDi ~ 0
-HSYNC_3V3
-Text GLabel 5000 6050 3    50   Output ~ 0
-CSYNC_3V3
 Text GLabel 5800 5650 2    50   BiDi ~ 0
+HSYNC_3V3
+Text GLabel 5800 5550 2    50   Output ~ 0
+CSYNC_3V3
+Text GLabel 5800 5450 2    50   BiDi ~ 0
 VSYNC_3V3
-Text GLabel 5800 5550 2    50   Input ~ 0
+Text GLabel 5800 5350 2    50   Input ~ 0
 LPEN_3V3
-Text GLabel 5800 3750 2    50   Input ~ 0
-A4_3V3
-Text GLabel 5800 3650 2    50   Input ~ 0
-A3_3V3
 Text GLabel 5800 3550 2    50   Input ~ 0
-A2_3V3
+A4_3V3
 Text GLabel 5800 3450 2    50   Input ~ 0
+A3_3V3
+Text GLabel 5800 3300 2    50   Input ~ 0
+A2_3V3
+Text GLabel 5800 3150 2    50   Input ~ 0
 A1_3V3
-Text GLabel 5800 3150 2    50   Output ~ 0
+Text GLabel 5800 3000 2    50   Output ~ 0
 RAS0|RAS_3V3
-Text GLabel 5800 3300 2    50   Output ~ 0
+Text GLabel 5800 2900 2    50   Output ~ 0
 RAS1|DRA9_3V3
-Text GLabel 6700 1750 2    50   Input ~ 0
+Text GLabel 5800 2800 2    50   Input ~ 0
 DRA9|CASU_3V3
-Text GLabel 6700 1850 2    50   Input ~ 0
+Text GLabel 5800 2700 2    50   Input ~ 0
 CASU|CASL_3V3
-Text GLabel 6700 1950 2    50   Input ~ 0
+Text GLabel 5800 2600 2    50   Input ~ 0
 CASL|UDS_3V3
-Text GLabel 6700 2150 2    50   Output ~ 0
+Text GLabel 8050 2900 2    50   Output ~ 0
 LDS|UDS_3V3
-Text GLabel 6700 2250 2    50   Output ~ 0
+Text GLabel 8050 3000 2    50   Output ~ 0
 DRA8|LDS_3V3
-Text GLabel 6700 2350 2    50   Input ~ 0
+Text GLabel 8050 3100 2    50   Input ~ 0
 DRA8|DRA7_3V3
-Text GLabel 6700 2850 2    50   Input ~ 0
+Text GLabel 8050 3200 2    50   Input ~ 0
 DRA7|DRA6_3V3
-Text GLabel 6700 3050 2    50   Input ~ 0
+Text GLabel 8050 3300 2    50   Input ~ 0
 DRA6|DRA5_3V3
-Text GLabel 6700 3150 2    50   Input ~ 0
+Text GLabel 8050 3400 2    50   Input ~ 0
 DRA5|DRA4_3V3
-Text GLabel 6700 3250 2    50   Input ~ 0
+Text GLabel 8050 3500 2    50   Input ~ 0
 DRA4|DRA3_3V3
-Text GLabel 6700 3350 2    50   Input ~ 0
+Text GLabel 8050 3600 2    50   Input ~ 0
 DRA3|DRA2_3V3
-Text GLabel 6700 3450 2    50   Input ~ 0
+Text GLabel 8050 3700 2    50   Input ~ 0
 DRA2|DRA1_3V3
-Text GLabel 6700 3550 2    50   Input ~ 0
+Text GLabel 8050 3800 2    50   Input ~ 0
 DRA1|DRA0_3V3
-Text GLabel 6700 3650 2    50   Input ~ 0
+Text GLabel 8050 3900 2    50   Input ~ 0
 DRA0_3V3|GND
-Text GLabel -500 4050 2    50   Input ~ 0
+Text GLabel 1550 6050 3    50   Input ~ 0
 BLIT_3V3
-Text GLabel -500 3950 2    50   Input ~ 0
+Text GLabel 1650 6050 3    50   Input ~ 0
 WE_3V3
-Text GLabel -500 3850 2    50   Output ~ 0
+Text GLabel 1750 6050 3    50   Output ~ 0
 RW_3V3
-Text GLabel -500 3750 2    50   Output ~ 0
+Text GLabel 1850 6050 3    50   Output ~ 0
 REGEN_3V3
-Text GLabel -500 3650 2    50   Output ~ 0
+Text GLabel 1450 6050 3    50   Output ~ 0
 AS_3V3
-Text GLabel 900  3300 0    50   Input ~ 0
+Text GLabel 1350 6050 3    50   Input ~ 0
 RAMEN_3V3
-Text GLabel 900  3200 0    50   Input ~ 0
+Text GLabel 900  4300 0    50   Input ~ 0
 28M_3V3
-Text GLabel 7400 1950 2    50   Input ~ 0
-CCKQ|7M_3V3
-Text GLabel 7400 1850 2    50   Input ~ 0
-CCK|CCKQ_3V3
-Text GLabel 7400 1750 2    50   Input ~ 0
-14M|CCK_3V3
-Text GLabel 7400 2050 2    50   Input ~ 0
-7M|CDAC_3V3
-Text GLabel 7400 2150 2    50   BiDi ~ 0
-CDAC|XCLKEN_3V3
 Text GLabel 900  5000 0    50   Output ~ 0
-RGA1_3V3
+CCKQ|7M_3V3
 Text GLabel 900  4900 0    50   Output ~ 0
-RGA2_3V3
+CCK|CCKQ_3V3
 Text GLabel 900  4800 0    50   Output ~ 0
+14M|CCK_3V3
+Text GLabel 900  5300 0    50   Output ~ 0
+7M|CDAC_3V3
+Text GLabel 900  5150 0    50   BiDi ~ 0
+CDAC|XCLKEN_3V3
+Text GLabel 2650 6050 3    50   Output ~ 0
+RGA1_3V3
+Text GLabel 2550 6050 3    50   Output ~ 0
+RGA2_3V3
+Text GLabel 2450 6050 3    50   Output ~ 0
 RGA3_3V3
-Text GLabel 900  4700 0    50   Output ~ 0
+Text GLabel 2350 6050 3    50   Output ~ 0
 RGA4_3V3
-Text GLabel 900  4600 0    50   Output ~ 0
+Text GLabel 2250 6050 3    50   Output ~ 0
 RGA5_3V3
-Text GLabel 900  4500 0    50   Output ~ 0
+Text GLabel 2150 6050 3    50   Output ~ 0
 RGA6_3V3
-Text GLabel 900  4400 0    50   Output ~ 0
+Text GLabel 2050 6050 3    50   Output ~ 0
 RGA7_3V3
-Text GLabel 900  3600 0    50   Output ~ 0
+Text GLabel 1950 6050 3    50   Output ~ 0
 RGA8_3V3
+Text GLabel 2750 6050 3    50   Input ~ 0
+RESET_3V3
+Text GLabel 2900 6050 3    50   Output ~ 0
+INTR_3V3
+Text GLabel 3350 6050 3    50   Input ~ 0
+DMAL_3V3
+Text GLabel 3150 6050 3    50   Input ~ 0
+BLISS_3V3
 $EndSCHEMATC
