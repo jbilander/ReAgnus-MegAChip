@@ -120,36 +120,6 @@ Wire Wire Line
 Connection ~ 2550 1150
 Wire Wire Line
 	2550 1150 2450 1150
-Text GLabel 9350 4100 2    50   Output ~ 0
-DRA0|GND
-Text GLabel 9350 4000 2    50   Output ~ 0
-DRA1|DRA0
-Text GLabel 9350 3900 2    50   Output ~ 0
-DRA2|DRA1
-Text GLabel 9350 3800 2    50   Output ~ 0
-DRA3|DRA2
-Text GLabel 9350 3700 2    50   Output ~ 0
-DRA4|DRA3
-Text GLabel 9350 3600 2    50   Output ~ 0
-DRA5|DRA4
-Text GLabel 9350 3500 2    50   Output ~ 0
-DRA6|DRA5
-Text GLabel 9350 3400 2    50   Output ~ 0
-DRA7|DRA6
-Text GLabel 9350 3300 2    50   Output ~ 0
-DRA8|DRA7
-Text GLabel 9350 2850 2    50   Output ~ 0
-RAS1|DRA9
-Text GLabel 9350 2750 2    50   Output ~ 0
-RAS0|RAS
-Text GLabel 9350 3050 2    50   Output ~ 0
-CASU|CASL
-Text GLabel 9350 2650 2    50   Output ~ 0
-WE
-Text GLabel 8600 5450 0    50   Input ~ 0
-AS
-Text GLabel 8600 5350 0    50   Input ~ 0
-RW
 Text GLabel 3450 6050 3    50   BiDi ~ 0
 DRD0_3V3
 Text GLabel 3550 6050 3    50   BiDi ~ 0
@@ -182,16 +152,8 @@ Text GLabel 4900 6050 3    50   BiDi ~ 0
 DRD14_3V3
 Text GLabel 4800 6050 3    50   BiDi ~ 0
 DRD15_3V3
-Text GLabel 8600 5150 0    50   Input ~ 0
-DRA8|LDS
-Text GLabel 8600 5250 0    50   Input ~ 0
-LDS|UDS
-Text GLabel 9350 3150 2    50   Output ~ 0
-CASL|UDS
-Text GLabel 9350 2950 2    50   Output ~ 0
-DRA9|CASU
-Text GLabel 8800 5000 2    50   Input ~ 0
-GND|NTSC
+Text GLabel 900  4700 0    50   Input ~ 0
+GND|NTSC_3V3
 Text GLabel 5800 5050 2    50   Input ~ 0
 A18_3V3
 Text GLabel 5800 5250 2    50   Input ~ 0
@@ -244,57 +206,57 @@ Text GLabel 5800 3000 2    50   Output ~ 0
 RAS0|RAS_3V3
 Text GLabel 5800 2900 2    50   Output ~ 0
 RAS1|DRA9_3V3
-Text GLabel 5800 2800 2    50   Input ~ 0
+Text GLabel 5800 2800 2    50   Output ~ 0
 DRA9|CASU_3V3
-Text GLabel 5800 2700 2    50   Input ~ 0
+Text GLabel 5800 2700 2    50   Output ~ 0
 CASU|CASL_3V3
-Text GLabel 5800 2600 2    50   Input ~ 0
+Text GLabel 5800 2600 2    50   Output ~ 0
 CASL|UDS_3V3
-Text GLabel 8050 2900 2    50   Output ~ 0
+Text GLabel 900  2450 0    50   Input ~ 0
 LDS|UDS_3V3
-Text GLabel 8050 3000 2    50   Output ~ 0
+Text GLabel 900  2550 0    50   Input ~ 0
 DRA8|LDS_3V3
-Text GLabel 8050 3100 2    50   Input ~ 0
+Text GLabel 900  2700 0    50   Output ~ 0
 DRA8|DRA7_3V3
-Text GLabel 8050 3200 2    50   Input ~ 0
+Text GLabel 900  2800 0    50   Output ~ 0
 DRA7|DRA6_3V3
-Text GLabel 8050 3300 2    50   Input ~ 0
+Text GLabel 900  2900 0    50   Output ~ 0
 DRA6|DRA5_3V3
-Text GLabel 8050 3400 2    50   Input ~ 0
+Text GLabel 900  3000 0    50   Output ~ 0
 DRA5|DRA4_3V3
-Text GLabel 8050 3500 2    50   Input ~ 0
+Text GLabel 900  3100 0    50   Output ~ 0
 DRA4|DRA3_3V3
-Text GLabel 8050 3600 2    50   Input ~ 0
+Text GLabel 900  3300 0    50   Output ~ 0
 DRA3|DRA2_3V3
-Text GLabel 8050 3700 2    50   Input ~ 0
+Text GLabel 900  4400 0    50   Output ~ 0
 DRA2|DRA1_3V3
-Text GLabel 8050 3800 2    50   Input ~ 0
+Text GLabel 900  4500 0    50   Output ~ 0
 DRA1|DRA0_3V3
-Text GLabel 8050 3900 2    50   Input ~ 0
+Text GLabel 900  4600 0    50   Output ~ 0
 DRA0_3V3|GND
 Text GLabel 1550 6050 3    50   Input ~ 0
 BLIT_3V3
-Text GLabel 1650 6050 3    50   Input ~ 0
+Text GLabel 1650 6050 3    50   Output ~ 0
 WE_3V3
-Text GLabel 1750 6050 3    50   Output ~ 0
+Text GLabel 1750 6050 3    50   Input ~ 0
 RW_3V3
 Text GLabel 1850 6050 3    50   Output ~ 0
 REGEN_3V3
-Text GLabel 1450 6050 3    50   Output ~ 0
+Text GLabel 1450 6050 3    50   Input ~ 0
 AS_3V3
 Text GLabel 1350 6050 3    50   Input ~ 0
 RAMEN_3V3
 Text GLabel 900  4300 0    50   Input ~ 0
 28M_3V3
-Text GLabel 900  5000 0    50   Output ~ 0
+Text GLabel 900  5300 0    50   Output ~ 0
 CCKQ|7M_3V3
 Text GLabel 900  4900 0    50   Output ~ 0
 CCK|CCKQ_3V3
 Text GLabel 900  4800 0    50   Output ~ 0
 14M|CCK_3V3
-Text GLabel 900  5300 0    50   Output ~ 0
+Text GLabel 900  5150 0    50   Output ~ 0
 7M|CDAC_3V3
-Text GLabel 900  5150 0    50   BiDi ~ 0
+Text GLabel 900  5000 0    50   BiDi ~ 0
 CDAC|XCLKEN_3V3
 Text GLabel 2650 6050 3    50   Output ~ 0
 RGA1_3V3

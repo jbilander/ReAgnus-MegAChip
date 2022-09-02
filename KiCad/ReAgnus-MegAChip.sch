@@ -243,63 +243,63 @@ AS
 $Comp
 L Connector_Generic:Conn_01x01 J4
 U 1 1 60D1FBEB
-P 950 6200
-F 0 "J4" H 1030 6196 50  0000 L CNN
-F 1 "Conn_01x01" H 1030 6151 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 950 6200 50  0001 C CNN
-F 3 "~" H 950 6200 50  0001 C CNN
-	1    950  6200
+P 850 6200
+F 0 "J4" H 930 6196 50  0000 L CNN
+F 1 "Conn_01x01" H 930 6151 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 850 6200 50  0001 C CNN
+F 3 "~" H 850 6200 50  0001 C CNN
+	1    850  6200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J5
 U 1 1 60D20CDD
-P 950 6350
-F 0 "J5" H 1030 6346 50  0000 L CNN
-F 1 "Conn_01x01" H 1030 6301 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 950 6350 50  0001 C CNN
-F 3 "~" H 950 6350 50  0001 C CNN
-	1    950  6350
+P 850 6350
+F 0 "J5" H 930 6346 50  0000 L CNN
+F 1 "Conn_01x01" H 930 6301 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 850 6350 50  0001 C CNN
+F 3 "~" H 850 6350 50  0001 C CNN
+	1    850  6350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J6
 U 1 1 60D21648
-P 950 6500
-F 0 "J6" H 1030 6496 50  0000 L CNN
-F 1 "Conn_01x01" H 1030 6451 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 950 6500 50  0001 C CNN
-F 3 "~" H 950 6500 50  0001 C CNN
-	1    950  6500
+P 850 6500
+F 0 "J6" H 930 6496 50  0000 L CNN
+F 1 "Conn_01x01" H 930 6451 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 850 6500 50  0001 C CNN
+F 3 "~" H 850 6500 50  0001 C CNN
+	1    850  6500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J7
 U 1 1 60D21D5E
-P 950 6650
-F 0 "J7" H 1030 6646 50  0000 L CNN
-F 1 "Conn_01x01" H 1030 6601 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 950 6650 50  0001 C CNN
-F 3 "~" H 950 6650 50  0001 C CNN
-	1    950  6650
+P 850 6650
+F 0 "J7" H 930 6646 50  0000 L CNN
+F 1 "Conn_01x01" H 930 6601 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 850 6650 50  0001 C CNN
+F 3 "~" H 850 6650 50  0001 C CNN
+	1    850  6650
 	1    0    0    -1  
 $EndComp
-NoConn ~ 750  6200
-NoConn ~ 750  6350
-NoConn ~ 750  6500
-NoConn ~ 750  6650
+NoConn ~ 650  6200
+NoConn ~ 650  6350
+NoConn ~ 650  6500
+NoConn ~ 650  6650
 $Comp
 L Connector_Generic:Conn_02x01 J3
 U 1 1 60E54D12
-P 2350 6600
-F 0 "J3" H 2400 6817 50  0000 C CNN
-F 1 "Conn_02x01" H 2400 6726 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical" H 2350 6600 50  0001 C CNN
-F 3 "~" H 2350 6600 50  0001 C CNN
-	1    2350 6600
+P 1650 6750
+F 0 "J3" H 1700 6967 50  0000 C CNN
+F 1 "Conn_02x01" H 1700 6876 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical" H 1650 6750 50  0001 C CNN
+F 3 "~" H 1650 6750 50  0001 C CNN
+	1    1650 6750
 	1    0    0    -1  
 $EndComp
-Text GLabel 2650 6600 2    50   Input ~ 0
+Text GLabel 1950 6750 2    50   Input ~ 0
 GND
 Wire Wire Line
 	5650 5700 5750 5700
@@ -319,12 +319,12 @@ GND
 $Comp
 L ReAgnus-MegAChip:LM1117-3.3 U2
 U 1 1 632C9030
-P 3550 7100
-F 0 "U2" H 3550 7342 50  0000 C CNN
-F 1 "LM1117-3.3" H 3550 7251 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223" H 3550 7100 50  0001 C CNN
-F 3 "" H 3550 7100 50  0001 C CNN
-	1    3550 7100
+P 2300 7400
+F 0 "U2" H 2300 7642 50  0000 C CNN
+F 1 "LM1117-3.3" H 2300 7551 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 2300 7400 50  0001 C CNN
+F 3 "" H 2300 7400 50  0001 C CNN
+	1    2300 7400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -506,7 +506,7 @@ Text GLabel 7450 1450 0    50   Output ~ 0
 CCKQ|7M
 Text GLabel 7450 1550 0    50   Output ~ 0
 7M|CDAC
-Text GLabel 7150 650  2    50   Output ~ 0
+Text GLabel 4350 6800 2    50   Output ~ 0
 GND|NTSC_3V3
 Text GLabel 4350 3200 0    50   BiDi ~ 0
 DRD15
@@ -1003,82 +1003,134 @@ Text GLabel 8450 6200 2    50   Input ~ 0
 DRA1|DRA0_3V3
 Text GLabel 8450 6300 2    50   Input ~ 0
 DRA0_3V3|GND
-Text GLabel 6950 700  0    50   Input ~ 0
+Text GLabel 2650 6350 2    50   Input ~ 0
 GND|NTSC
-Text GLabel 3000 7100 0    50   Input ~ 0
+Text GLabel 1750 7400 0    50   Input ~ 0
 VCC
-Text GLabel 2150 6600 0    50   Input ~ 0
+Text GLabel 1450 6750 0    50   Input ~ 0
 VCC
-Text GLabel 3150 6900 1    50   Input ~ 0
+Text GLabel 1900 7200 1    50   Input ~ 0
 GND
 $Comp
 L Device:C_Small C2
 U 1 1 63947670
-P 3950 7000
+P 2700 7300
 AR Path="/63947670" Ref="C2"  Part="1" 
 AR Path="/632D3BDF/63947670" Ref="C?"  Part="1" 
 AR Path="/632F104D/63947670" Ref="C?"  Part="1" 
-F 0 "C2" H 4050 7100 50  0000 L CNN
-F 1 "10uF" H 4050 7000 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3950 7000 50  0001 C CNN
-F 3 "~" H 3950 7000 50  0001 C CNN
-	1    3950 7000
+F 0 "C2" H 2800 7400 50  0000 L CNN
+F 1 "10uF" H 2800 7300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2700 7300 50  0001 C CNN
+F 3 "~" H 2700 7300 50  0001 C CNN
+	1    2700 7300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C1
 U 1 1 63949338
-P 3150 7000
+P 1900 7300
 AR Path="/63949338" Ref="C1"  Part="1" 
 AR Path="/632D3BDF/63949338" Ref="C?"  Part="1" 
 AR Path="/632F104D/63949338" Ref="C?"  Part="1" 
-F 0 "C1" H 2850 7100 50  0000 L CNN
-F 1 "10uF" H 2850 7000 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3150 7000 50  0001 C CNN
-F 3 "~" H 3150 7000 50  0001 C CNN
-	1    3150 7000
+F 0 "C1" H 1600 7400 50  0000 L CNN
+F 1 "10uF" H 1600 7300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1900 7300 50  0001 C CNN
+F 3 "~" H 1900 7300 50  0001 C CNN
+	1    1900 7300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3000 7100 3150 7100
-Connection ~ 3150 7100
+	1750 7400 1900 7400
+Connection ~ 1900 7400
 Wire Wire Line
-	3150 7100 3250 7100
-Text GLabel 3950 6750 0    50   Input ~ 0
+	1900 7400 2000 7400
+Text GLabel 2700 7050 0    50   Input ~ 0
 GND
 Wire Wire Line
-	3850 7100 3950 7100
+	2600 7400 2700 7400
 Wire Wire Line
-	3850 7200 3850 7100
-Connection ~ 3850 7100
-Text GLabel 4800 7100 2    50   Output ~ 0
+	2600 7500 2600 7400
+Connection ~ 2600 7400
+Text GLabel 3550 7400 2    50   Output ~ 0
 3V3
-Connection ~ 3950 7100
+Connection ~ 2700 7400
 Wire Wire Line
-	3950 7100 4050 7100
-Text GLabel 3550 7400 3    50   Input ~ 0
+	2700 7400 2800 7400
+Text GLabel 2300 7700 3    50   Input ~ 0
 GND
 $Comp
 L Device:C_Small C7
 U 1 1 63951D9D
-P 4050 7200
+P 2800 7500
 AR Path="/63951D9D" Ref="C7"  Part="1" 
 AR Path="/632D3BDF/63951D9D" Ref="C?"  Part="1" 
 AR Path="/632F104D/63951D9D" Ref="C?"  Part="1" 
-F 0 "C7" H 4150 7050 50  0000 L CNN
-F 1 "0.1uF" H 4150 7150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4050 7200 50  0001 C CNN
-F 3 "~" H 4050 7200 50  0001 C CNN
-	1    4050 7200
+F 0 "C7" H 2900 7350 50  0000 L CNN
+F 1 "0.1uF" H 2900 7450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2800 7500 50  0001 C CNN
+F 3 "~" H 2800 7500 50  0001 C CNN
+	1    2800 7500
 	1    0    0    -1  
 $EndComp
-Connection ~ 4050 7100
+Connection ~ 2800 7400
 Wire Wire Line
-	4050 7100 4800 7100
+	2800 7400 3550 7400
 Wire Wire Line
-	3950 6900 3950 6750
+	2700 7200 2700 7050
 Wire Wire Line
-	4050 7400 4050 7300
+	2800 7700 2800 7600
 Wire Wire Line
-	3550 7400 4050 7400
+	2300 7700 2800 7700
+Wire Wire Line
+	4050 6800 4350 6800
+Wire Wire Line
+	4050 6450 4050 6800
+$Comp
+L ReAgnus-MegAChip:74LVC1G07 U8
+U 1 1 631A6F88
+P 3600 6250
+F 0 "U8" H 3600 6765 50  0000 C CNN
+F 1 "74LVC1G07" H 3600 6674 50  0000 C CNN
+F 2 "Agnus:SOT-353_SC-70-5_Custom_Handsoldering" H 4100 7200 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lvc1g07-q1.pdf" H 4100 7200 50  0001 C CNN
+	1    3600 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 631AE53C
+P 2450 6350
+F 0 "J1" H 2368 6025 50  0000 C CNN
+F 1 "Conn_01x03" H 2368 6116 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2450 6350 50  0001 C CNN
+F 3 "~" H 2450 6350 50  0001 C CNN
+	1    2450 6350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3150 6250 2650 6250
+Wire Wire Line
+	3150 6450 2650 6450
+Text GLabel 2900 6450 3    50   Input ~ 0
+GND
+$Comp
+L Device:C_Small C8
+U 1 1 631B6BE4
+P 4150 5950
+AR Path="/631B6BE4" Ref="C8"  Part="1" 
+AR Path="/632D3BDF/631B6BE4" Ref="C?"  Part="1" 
+AR Path="/632F104D/631B6BE4" Ref="C?"  Part="1" 
+F 0 "C8" H 4250 5800 50  0000 L CNN
+F 1 "0.1uF" H 4250 5900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4150 5950 50  0001 C CNN
+F 3 "~" H 4150 5950 50  0001 C CNN
+	1    4150 5950
+	1    0    0    -1  
+$EndComp
+Text GLabel 4150 6050 3    50   Input ~ 0
+3V3
+Wire Wire Line
+	4050 6050 4150 6050
+Text GLabel 4150 5850 1    50   Input ~ 0
+GND
 $EndSCHEMATC
