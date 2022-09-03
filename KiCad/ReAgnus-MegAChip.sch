@@ -505,7 +505,7 @@ CCKQ|7M
 Text GLabel 7450 1550 0    50   Output ~ 0
 7M|CDAC
 Text GLabel 4350 6800 2    50   Output ~ 0
-GND|NTSC_3V3
+PAL_NTSC_3V3
 Text GLabel 4350 3200 0    50   BiDi ~ 0
 DRD15
 Text GLabel 4350 3300 0    50   BiDi ~ 0
@@ -999,8 +999,8 @@ Text GLabel 8450 6200 2    50   Input ~ 0
 DRA1|DRA0_3V3
 Text GLabel 8450 6300 2    50   Input ~ 0
 DRA0_3V3|GND
-Text GLabel 2650 6350 2    50   Input ~ 0
-GND|NTSC
+Text GLabel 2550 6350 2    50   Input ~ 0
+GND|PAL_NTSC
 Text GLabel 1750 7400 0    50   Input ~ 0
 VCC
 Text GLabel 1450 6750 0    50   Input ~ 0
@@ -1078,7 +1078,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 7700 2800 7700
 Wire Wire Line
-	4050 6800 4350 6800
+	4050 6800 4200 6800
 Wire Wire Line
 	4050 6450 4050 6800
 $Comp
@@ -1095,18 +1095,16 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x03 J1
 U 1 1 631AE53C
-P 2450 6350
-F 0 "J1" H 2368 6025 50  0000 C CNN
-F 1 "Conn_01x03" H 2368 6116 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2450 6350 50  0001 C CNN
-F 3 "~" H 2450 6350 50  0001 C CNN
-	1    2450 6350
+P 2350 6350
+F 0 "J1" H 2500 6250 50  0000 C CNN
+F 1 "Conn_01x03" H 2500 6150 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2350 6350 50  0001 C CNN
+F 3 "~" H 2350 6350 50  0001 C CNN
+	1    2350 6350
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3150 6250 2650 6250
-Wire Wire Line
-	3150 6450 2650 6450
+	3150 6250 2900 6250
 Text GLabel 2900 6450 3    50   Input ~ 0
 GND
 $Comp
@@ -1133,4 +1131,48 @@ Text GLabel 8450 4800 2    50   Output ~ 0
 LDS|UDS_3V3
 Text GLabel 7450 4600 0    50   Input ~ 0
 LDS|UDS
+$Comp
+L Device:R_Small R1
+U 1 1 632802A6
+P 2900 6050
+F 0 "R1" H 2950 6100 50  0000 L CNN
+F 1 "10k" H 2950 6000 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2900 6050 50  0001 C CNN
+F 3 "~" H 2900 6050 50  0001 C CNN
+	1    2900 6050
+	1    0    0    -1  
+$EndComp
+Connection ~ 2900 6250
+Text GLabel 4200 6500 1    50   Input ~ 0
+3V3
+Wire Wire Line
+	2900 6250 2900 6150
+Wire Wire Line
+	2900 5950 2900 5850
+Text GLabel 2700 6250 1    50   Input ~ 0
+PAL_NTSC
+Text GLabel 2900 5850 1    50   Input ~ 0
+VCC
+Wire Wire Line
+	2550 6250 2900 6250
+Wire Wire Line
+	2550 6450 3150 6450
+$Comp
+L Device:R_Small R2
+U 1 1 6328BA47
+P 4200 6650
+F 0 "R2" H 4250 6700 50  0000 L CNN
+F 1 "10k" H 4250 6600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4200 6650 50  0001 C CNN
+F 3 "~" H 4200 6650 50  0001 C CNN
+	1    4200 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 6500 4200 6550
+Wire Wire Line
+	4200 6750 4200 6800
+Connection ~ 4200 6800
+Wire Wire Line
+	4200 6800 4350 6800
 $EndSCHEMATC

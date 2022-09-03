@@ -282,4 +282,62 @@ Text GLabel 3900 5950 3    50   Input ~ 0
 DMAL_3V3
 Text GLabel 3700 5950 3    50   Input ~ 0
 BLISS_3V3
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J2
+U 1 1 6329A00B
+P 7850 2150
+F 0 "J2" H 7900 2567 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 7900 2476 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 7850 2150 50  0001 C CNN
+F 3 "~" H 7850 2150 50  0001 C CNN
+	1    7850 2150
+	1    0    0    -1  
+$EndComp
+Text GLabel 7650 1950 0    50   Output ~ 0
+TCK
+Text GLabel 7650 2050 0    50   Output ~ 0
+TDI
+Text GLabel 7650 2150 0    50   Input ~ 0
+TDO
+Text GLabel 7650 2250 0    50   Input ~ 0
+GND
+Text GLabel 7650 2350 0    50   Output ~ 0
+TMS
+Text GLabel 8150 1950 2    50   Input ~ 0
+GND
+Text GLabel 8150 2350 2    50   Input ~ 0
+GND
+Text GLabel 8150 2050 2    50   Input ~ 0
+JP1
+Text GLabel 8150 2250 2    50   Input ~ 0
+JP2
+Text GLabel 8150 2150 2    50   Input ~ 0
+3V3
+Text GLabel 1450 3400 0    50   Input ~ 0
+TCK
+Text GLabel 1450 3600 0    50   Input ~ 0
+TDI
+Text GLabel 1450 3750 0    50   Output ~ 0
+TDO
+Text GLabel 1450 3300 0    50   Input ~ 0
+TMS
+Text GLabel 1450 3900 0    50   Input ~ 0
+RECONFIG_N
+Text GLabel 1450 4000 0    50   Input ~ 0
+DONE
+Text GLabel 1450 4100 0    50   Input ~ 0
+READY
+Text GLabel 1450 3100 0    50   Input ~ 0
+GCLKT_7
+Text GLabel 3600 5950 3    50   Input ~ 0
+GCLKT_5
+Text GLabel 3800 5950 3    50   Input ~ 0
+GCLKT_4
+Text GLabel 6350 1600 2    50   Input ~ 0
+GCLKT_1
+Text GLabel 3550 1050 1    50   Input ~ 0
+MODE1
+Text GLabel 3450 1050 1    50   Input ~ 0
+MODE0
+NoConn ~ 1450 2450
 $EndSCHEMATC
