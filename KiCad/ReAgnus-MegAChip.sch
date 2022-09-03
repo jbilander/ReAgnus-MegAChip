@@ -488,11 +488,9 @@ Text GLabel 9750 3450 0    50   BiDi ~ 0
 DRD15
 Text GLabel 9750 4600 0    50   Input ~ 0
 XLCK|A20
-Text GLabel 7450 4800 0    50   Input ~ 0
+Text GLabel 7450 4800 0    50   BiDi ~ 0
 DRA8|LDS
-Text GLabel 7450 4600 0    50   Input ~ 0
-LDS|UDS
-Text GLabel 7450 4500 0    50   Output ~ 0
+Text GLabel 7450 4500 0    50   BiDi ~ 0
 CASL|UDS
 Text GLabel 7450 4300 0    50   Output ~ 0
 DRA9|CASU
@@ -891,11 +889,9 @@ Text GLabel 8450 4400 2    50   Input ~ 0
 DRA9|CASU_3V3
 Text GLabel 8450 4500 2    50   Input ~ 0
 CASU|CASL_3V3
-Text GLabel 8450 4600 2    50   Input ~ 0
+Text GLabel 8450 4600 2    50   BiDi ~ 0
 CASL|UDS_3V3
-Text GLabel 8450 4800 2    50   Output ~ 0
-LDS|UDS_3V3
-Text GLabel 8450 4900 2    50   Output ~ 0
+Text GLabel 8450 4900 2    50   BiDi ~ 0
 DRA8|LDS_3V3
 Text GLabel 8450 5000 2    50   Input ~ 0
 DRA8|DRA7_3V3
@@ -1133,4 +1129,8 @@ Wire Wire Line
 	4050 6050 4150 6050
 Text GLabel 4150 5850 1    50   Input ~ 0
 GND
+Text GLabel 8450 4800 2    50   Output ~ 0
+LDS|UDS_3V3
+Text GLabel 7450 4600 0    50   Input ~ 0
+LDS|UDS
 $EndSCHEMATC
