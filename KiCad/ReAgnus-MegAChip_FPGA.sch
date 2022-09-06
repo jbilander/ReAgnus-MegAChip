@@ -13,36 +13,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 7850 5100 2    50   Input ~ 0
-VCC
-Text GLabel 7850 4900 2    50   Input ~ 0
-GND
 Text GLabel 3900 4400 3    50   Input ~ 0
 GND
-$Comp
-L Device:C_Small C?
-U 1 1 632F85C6
-P 7600 5000
-AR Path="/632F85C6" Ref="C?"  Part="1" 
-AR Path="/632D3BDF/632F85C6" Ref="C?"  Part="1" 
-AR Path="/632F104D/632F85C6" Ref="C9"  Part="1" 
-F 0 "C9" H 7692 5000 50  0000 L CNN
-F 1 "C_Small" H 7692 4955 50  0001 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7600 5000 50  0001 C CNN
-F 3 "~" H 7600 5000 50  0001 C CNN
-	1    7600 5000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7450 4900 7600 4900
-Connection ~ 7600 4900
-Wire Wire Line
-	7600 4900 7850 4900
-Wire Wire Line
-	7450 5100 7600 5100
-Connection ~ 7600 5100
-Wire Wire Line
-	7600 5100 7850 5100
 Text GLabel 3200 1050 1    50   Input ~ 0
 3V3
 $Comp
@@ -285,33 +257,33 @@ BLISS_3V3
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J2
 U 1 1 6329A00B
-P 7850 2150
-F 0 "J2" H 7900 2567 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 7900 2476 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 7850 2150 50  0001 C CNN
-F 3 "~" H 7850 2150 50  0001 C CNN
-	1    7850 2150
+P 7800 1700
+F 0 "J2" H 7850 2117 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 7850 2026 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 7800 1700 50  0001 C CNN
+F 3 "~" H 7800 1700 50  0001 C CNN
+	1    7800 1700
 	1    0    0    -1  
 $EndComp
-Text GLabel 7650 1950 0    50   Output ~ 0
+Text GLabel 7600 1500 0    50   Output ~ 0
 TCK
-Text GLabel 7650 2050 0    50   Output ~ 0
+Text GLabel 7600 1600 0    50   Output ~ 0
 TDI
-Text GLabel 7650 2150 0    50   Input ~ 0
+Text GLabel 7600 1700 0    50   Input ~ 0
 TDO
-Text GLabel 7650 2250 0    50   Input ~ 0
+Text GLabel 7600 1800 0    50   Input ~ 0
 GND
-Text GLabel 7650 2350 0    50   Output ~ 0
+Text GLabel 7600 1900 0    50   Output ~ 0
 TMS
-Text GLabel 8150 1950 2    50   Input ~ 0
+Text GLabel 8100 1500 2    50   Input ~ 0
 GND
-Text GLabel 8150 2350 2    50   Input ~ 0
+Text GLabel 8100 1900 2    50   Input ~ 0
 GND
-Text GLabel 8150 2050 2    50   Input ~ 0
+Text GLabel 8100 1600 2    50   Input ~ 0
 JP1
-Text GLabel 8150 2250 2    50   Input ~ 0
+Text GLabel 8100 1800 2    50   Input ~ 0
 JP2
-Text GLabel 8150 2150 2    50   Input ~ 0
+Text GLabel 8100 1700 2    50   Input ~ 0
 3V3
 Text GLabel 1450 3400 0    50   Input ~ 0
 TCK
@@ -340,4 +312,85 @@ MODE1
 Text GLabel 3450 1050 1    50   Input ~ 0
 MODE0
 NoConn ~ 1450 2450
+$Comp
+L Memory_RAM:AS4C4M16SA U10
+U 1 1 632B4228
+P 9150 3700
+F 0 "U10" H 9150 5181 50  0000 C CNN
+F 1 "AS4C4M16SA" H 9150 5090 50  0000 C CNN
+F 2 "Package_SO:TSOP-II-54_22.2x10.16mm_P0.8mm" H 9150 3700 50  0001 C CIN
+F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/dram/64M-AS4C4M16SA-CI_v3.0_March%202015.pdf" H 9150 3450 50  0001 C CNN
+	1    9150 3700
+	1    0    0    -1  
+$EndComp
+Text GLabel 9950 4150 2    50   BiDi ~ 0
+DRD0_3V3
+Text GLabel 9950 4050 2    50   BiDi ~ 0
+DRD1_3V3
+Text GLabel 9950 3950 2    50   BiDi ~ 0
+DRD2_3V3
+Text GLabel 9950 3850 2    50   BiDi ~ 0
+DRD3_3V3
+Text GLabel 9950 3750 2    50   BiDi ~ 0
+DRD4_3V3
+Text GLabel 9950 3650 2    50   BiDi ~ 0
+DRD5_3V3
+Text GLabel 9950 3550 2    50   BiDi ~ 0
+DRD6_3V3
+Text GLabel 9950 3450 2    50   BiDi ~ 0
+DRD7_3V3
+Text GLabel 9950 3350 2    50   BiDi ~ 0
+DRD8_3V3
+Text GLabel 9950 2650 2    50   BiDi ~ 0
+DRD9_3V3
+Text GLabel 9950 2750 2    50   BiDi ~ 0
+DRD10_3V3
+Text GLabel 9950 2850 2    50   BiDi ~ 0
+DRD11_3V3
+Text GLabel 9950 2950 2    50   BiDi ~ 0
+DRD12_3V3
+Text GLabel 9950 3050 2    50   BiDi ~ 0
+DRD13_3V3
+Text GLabel 9950 3150 2    50   BiDi ~ 0
+DRD14_3V3
+Text GLabel 9950 3250 2    50   BiDi ~ 0
+DRD15_3V3
+Text GLabel 8850 2400 1    50   Input ~ 0
+3V3
+Wire Wire Line
+	8850 2400 8950 2400
+Connection ~ 8950 2400
+Wire Wire Line
+	8950 2400 9050 2400
+Connection ~ 9050 2400
+Wire Wire Line
+	9050 2400 9150 2400
+Connection ~ 9150 2400
+Wire Wire Line
+	9150 2400 9250 2400
+Connection ~ 9250 2400
+Wire Wire Line
+	9250 2400 9350 2400
+Connection ~ 9350 2400
+Wire Wire Line
+	9350 2400 9450 2400
+Text GLabel 8850 5000 3    50   Input ~ 0
+GND
+Wire Wire Line
+	8850 5000 8950 5000
+Connection ~ 8950 5000
+Wire Wire Line
+	8950 5000 9050 5000
+Connection ~ 9050 5000
+Wire Wire Line
+	9050 5000 9150 5000
+Connection ~ 9150 5000
+Wire Wire Line
+	9150 5000 9250 5000
+Connection ~ 9250 5000
+Wire Wire Line
+	9250 5000 9350 5000
+Connection ~ 9350 5000
+Wire Wire Line
+	9350 5000 9450 5000
 $EndSCHEMATC
