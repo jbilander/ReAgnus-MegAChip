@@ -124,8 +124,6 @@ Text GLabel 5450 5950 3    50   BiDi ~ 0
 DRD14_3V3
 Text GLabel 5350 5950 3    50   BiDi ~ 0
 DRD15_3V3
-Text GLabel 1450 4600 0    50   Input ~ 0
-GND|NTSC_3V3
 Text GLabel 6350 4950 2    50   Input ~ 0
 A18_3V3
 Text GLabel 6350 5150 2    50   Input ~ 0
@@ -200,11 +198,11 @@ Text GLabel 1450 3200 0    50   Output ~ 0
 DRA4|DRA3_3V3
 Text GLabel 1450 3500 0    50   Output ~ 0
 DRA3|DRA2_3V3
-Text GLabel 1450 4300 0    50   Output ~ 0
-DRA2|DRA1_3V3
 Text GLabel 1450 4400 0    50   Output ~ 0
-DRA1|DRA0_3V3
+DRA2|DRA1_3V3
 Text GLabel 1450 4500 0    50   Output ~ 0
+DRA1|DRA0_3V3
+Text GLabel 1450 4600 0    50   Output ~ 0
 DRA0_3V3|GND
 Text GLabel 2100 5950 3    50   Output ~ 0
 BLIT_3V3
@@ -393,4 +391,35 @@ Wire Wire Line
 Connection ~ 9350 5000
 Wire Wire Line
 	9350 5000 9450 5000
+Text GLabel 1450 4300 0    50   Input ~ 0
+nNTSC_8372_3V3
+$Comp
+L Device:R_Pack04 RN1
+U 1 1 6329F720
+P 9450 1300
+F 0 "RN1" H 9638 1346 50  0000 L CNN
+F 1 "R_Pack04" H 9638 1255 50  0000 L CNN
+F 2 "Agnus:RESCAF80P320X160X60-8N" V 9725 1300 50  0001 C CNN
+F 3 "~" H 9450 1300 50  0001 C CNN
+	1    9450 1300
+	1    0    0    -1  
+$EndComp
+Text GLabel 9250 1100 1    50   Input ~ 0
+3V3
+Wire Wire Line
+	9250 1100 9350 1100
+Connection ~ 9350 1100
+Wire Wire Line
+	9350 1100 9450 1100
+Connection ~ 9450 1100
+Wire Wire Line
+	9450 1100 9550 1100
+Text GLabel 9550 1500 3    50   Input ~ 0
+RECONFIG_N
+Text GLabel 9450 1500 3    50   Input ~ 0
+DONE
+Text GLabel 9350 1500 3    50   Input ~ 0
+READY
+Text GLabel 9250 1500 3    50   Input ~ 0
+nNTSC_8372_3V3
 $EndSCHEMATC
