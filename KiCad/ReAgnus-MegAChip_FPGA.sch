@@ -428,8 +428,6 @@ Text GLabel 10300 1500 3    50   Input ~ 0
 MODE1
 Text GLabel 10200 1500 3    50   Input ~ 0
 MODE0
-Text GLabel 10800 800  1    50   Input ~ 0
-3V3
 $Comp
 L Device:R_Pack04 RN2
 U 1 1 63318369
@@ -441,8 +439,6 @@ F 3 "~" H 10400 1300 50  0001 C CNN
 	1    10400 1300
 	1    0    0    -1  
 $EndComp
-Text GLabel 10700 800  1    50   Input ~ 0
-3V3
 Wire Wire Line
 	10200 1100 10300 1100
 Connection ~ 10300 1100
