@@ -1142,9 +1142,9 @@ Wire Notes Line
 Wire Notes Line
 	4000 6750 6750 6750
 Wire Wire Line
-	4600 6850 5800 6850
+	4600 6850 4800 6850
 Wire Wire Line
-	4600 7050 5800 7050
+	4600 7050 4800 7050
 Text Notes 6300 6850 0    50   ~ 0
 0603 10nF
 Connection ~ 5000 7350
@@ -1378,4 +1378,24 @@ Connection ~ 5450 7350
 Wire Wire Line
 	5450 7550 5600 7550
 Connection ~ 5450 7550
+$Comp
+L Device:C_Small C19
+U 1 1 63426A79
+P 4800 6950
+AR Path="/63426A79" Ref="C19"  Part="1" 
+AR Path="/632D3BDF/63426A79" Ref="C?"  Part="1" 
+AR Path="/632F104D/63426A79" Ref="C?"  Part="1" 
+F 0 "C19" H 4750 6800 50  0000 L CNN
+F 1 "0.01uF" H 4750 6700 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4800 6950 50  0001 C CNN
+F 3 "~" H 4800 6950 50  0001 C CNN
+	1    4800 6950
+	1    0    0    -1  
+$EndComp
+Connection ~ 4800 6850
+Wire Wire Line
+	4800 6850 5800 6850
+Connection ~ 4800 7050
+Wire Wire Line
+	4800 7050 5800 7050
 $EndSCHEMATC
