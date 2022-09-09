@@ -1161,15 +1161,15 @@ Wire Wire Line
 $Comp
 L Device:C_Small C15
 U 1 1 632C350C
-P 4950 6950
+P 4800 6950
 AR Path="/632C350C" Ref="C15"  Part="1" 
 AR Path="/632D3BDF/632C350C" Ref="C?"  Part="1" 
 AR Path="/632F104D/632C350C" Ref="C?"  Part="1" 
-F 0 "C15" H 4900 6800 50  0000 L CNN
-F 1 "0.01uF" H 4900 6700 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4950 6950 50  0001 C CNN
-F 3 "~" H 4950 6950 50  0001 C CNN
-	1    4950 6950
+F 0 "C15" H 4750 6800 50  0000 L CNN
+F 1 "0.01uF" H 4750 6700 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4800 6950 50  0001 C CNN
+F 3 "~" H 4800 6950 50  0001 C CNN
+	1    4800 6950
 	1    0    0    -1  
 $EndComp
 Text GLabel 4300 6850 0    50   Input ~ 0
@@ -1203,32 +1203,32 @@ Wire Wire Line
 Wire Wire Line
 	4650 7550 4900 7550
 $Comp
-L Device:C_Small C13
+L Device:C_Small C14
 U 1 1 6333CF1B
-P 4650 6950
-AR Path="/6333CF1B" Ref="C13"  Part="1" 
+P 4600 6950
+AR Path="/6333CF1B" Ref="C14"  Part="1" 
 AR Path="/632D3BDF/6333CF1B" Ref="C?"  Part="1" 
 AR Path="/632F104D/6333CF1B" Ref="C?"  Part="1" 
-F 0 "C13" H 4600 6800 50  0000 L CNN
-F 1 "0.01uF" H 4600 6700 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4650 6950 50  0001 C CNN
-F 3 "~" H 4650 6950 50  0001 C CNN
-	1    4650 6950
+F 0 "C14" H 4550 6800 50  0000 L CNN
+F 1 "0.01uF" H 4550 6700 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4600 6950 50  0001 C CNN
+F 3 "~" H 4600 6950 50  0001 C CNN
+	1    4600 6950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4900 7350 5400 7350
+	4900 7350 5150 7350
 Wire Wire Line
-	4900 7550 5400 7550
+	4900 7550 5150 7550
 $Comp
-L Device:C_Small C12
+L Device:C_Small C13
 U 1 1 633036BF
 P 4400 6950
-AR Path="/633036BF" Ref="C12"  Part="1" 
+AR Path="/633036BF" Ref="C13"  Part="1" 
 AR Path="/632D3BDF/633036BF" Ref="C?"  Part="1" 
 AR Path="/632F104D/633036BF" Ref="C?"  Part="1" 
-F 0 "C12" H 4300 6800 50  0000 L CNN
-F 1 "0.01uF" H 4300 6700 50  0000 L CNN
+F 0 "C13" H 4300 6800 50  0000 L CNN
+F 1 "0.01uF" H 4300 6700 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4400 6950 50  0001 C CNN
 F 3 "~" H 4400 6950 50  0001 C CNN
 	1    4400 6950
@@ -1238,4 +1238,51 @@ Wire Wire Line
 	4300 7050 4400 7050
 Text GLabel 4300 7050 0    50   Input ~ 0
 GND
+$Comp
+L Device:C_Small C12
+U 1 1 6335E2C8
+P 5150 7450
+AR Path="/6335E2C8" Ref="C12"  Part="1" 
+AR Path="/632D3BDF/6335E2C8" Ref="C?"  Part="1" 
+AR Path="/632F104D/6335E2C8" Ref="C?"  Part="1" 
+F 0 "C12" H 5150 7300 50  0000 L CNN
+F 1 "0.1uF" H 5150 7200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5150 7450 50  0001 C CNN
+F 3 "~" H 5150 7450 50  0001 C CNN
+	1    5150 7450
+	1    0    0    -1  
+$EndComp
+Connection ~ 5150 7350
+Wire Wire Line
+	5150 7350 5400 7350
+Connection ~ 5150 7550
+Wire Wire Line
+	5150 7550 5400 7550
+$Comp
+L Device:CP_Small C16
+U 1 1 63371DE3
+P 3150 6950
+F 0 "C16" H 3238 6996 50  0000 L CNN
+F 1 "CP_Small" H 3238 6905 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 3150 6950 50  0001 C CNN
+F 3 "~" H 3150 6950 50  0001 C CNN
+	1    3150 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 6850 4600 6850
+Connection ~ 4400 6850
+Wire Wire Line
+	4400 7050 4600 7050
+Connection ~ 4400 7050
+Connection ~ 4600 6850
+Connection ~ 4600 7050
+Wire Wire Line
+	4600 6850 4800 6850
+Wire Wire Line
+	4600 7050 4800 7050
+Text GLabel 3150 7050 3    50   Input ~ 0
+GND
+Text GLabel 3150 6850 1    50   Input ~ 0
+VCC
 $EndSCHEMATC
