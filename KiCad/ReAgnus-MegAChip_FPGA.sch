@@ -313,84 +313,84 @@ NoConn ~ 1450 2450
 $Comp
 L Memory_RAM:AS4C4M16SA U10
 U 1 1 632B4228
-P 9150 3700
-F 0 "U10" H 9150 5181 50  0000 C CNN
-F 1 "AS4C4M16SA" H 9150 5090 50  0000 C CNN
-F 2 "Package_SO:TSOP-II-54_22.2x10.16mm_P0.8mm" H 9150 3700 50  0001 C CIN
-F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/dram/64M-AS4C4M16SA-CI_v3.0_March%202015.pdf" H 9150 3450 50  0001 C CNN
-	1    9150 3700
+P 9150 4000
+F 0 "U10" H 9150 5481 50  0000 C CNN
+F 1 "AS4C4M16SA" H 9150 5390 50  0000 C CNN
+F 2 "Package_SO:TSOP-II-54_22.2x10.16mm_P0.8mm" H 9150 4000 50  0001 C CIN
+F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/dram/64M-AS4C4M16SA-CI_v3.0_March%202015.pdf" H 9150 3750 50  0001 C CNN
+	1    9150 4000
 	1    0    0    -1  
 $EndComp
-Text GLabel 9950 4150 2    50   BiDi ~ 0
+Text GLabel 9950 2950 2    50   BiDi ~ 0
 DRD0_3V3
-Text GLabel 9950 4050 2    50   BiDi ~ 0
+Text GLabel 9950 3050 2    50   BiDi ~ 0
 DRD1_3V3
-Text GLabel 9950 3950 2    50   BiDi ~ 0
+Text GLabel 9950 3150 2    50   BiDi ~ 0
 DRD2_3V3
-Text GLabel 9950 3850 2    50   BiDi ~ 0
+Text GLabel 9950 3250 2    50   BiDi ~ 0
 DRD3_3V3
-Text GLabel 9950 3750 2    50   BiDi ~ 0
+Text GLabel 9950 3350 2    50   BiDi ~ 0
 DRD4_3V3
-Text GLabel 9950 3650 2    50   BiDi ~ 0
+Text GLabel 9950 3450 2    50   BiDi ~ 0
 DRD5_3V3
 Text GLabel 9950 3550 2    50   BiDi ~ 0
 DRD6_3V3
-Text GLabel 9950 3450 2    50   BiDi ~ 0
+Text GLabel 9950 3650 2    50   BiDi ~ 0
 DRD7_3V3
-Text GLabel 9950 3350 2    50   BiDi ~ 0
+Text GLabel 9950 3750 2    50   BiDi ~ 0
 DRD8_3V3
-Text GLabel 9950 2650 2    50   BiDi ~ 0
+Text GLabel 9950 3850 2    50   BiDi ~ 0
 DRD9_3V3
-Text GLabel 9950 2750 2    50   BiDi ~ 0
+Text GLabel 9950 3950 2    50   BiDi ~ 0
 DRD10_3V3
-Text GLabel 9950 2850 2    50   BiDi ~ 0
+Text GLabel 9950 4050 2    50   BiDi ~ 0
 DRD11_3V3
-Text GLabel 9950 2950 2    50   BiDi ~ 0
+Text GLabel 9950 4150 2    50   BiDi ~ 0
 DRD12_3V3
-Text GLabel 9950 3050 2    50   BiDi ~ 0
+Text GLabel 9950 4250 2    50   BiDi ~ 0
 DRD13_3V3
-Text GLabel 9950 3150 2    50   BiDi ~ 0
+Text GLabel 9950 4350 2    50   BiDi ~ 0
 DRD14_3V3
-Text GLabel 9950 3250 2    50   BiDi ~ 0
+Text GLabel 9950 4450 2    50   BiDi ~ 0
 DRD15_3V3
-Text GLabel 8850 2400 1    50   Input ~ 0
+Text GLabel 8850 2700 1    50   Input ~ 0
 3V3
 Wire Wire Line
-	8850 2400 8950 2400
-Connection ~ 8950 2400
+	8850 2700 8950 2700
+Connection ~ 8950 2700
 Wire Wire Line
-	8950 2400 9050 2400
-Connection ~ 9050 2400
+	8950 2700 9050 2700
+Connection ~ 9050 2700
 Wire Wire Line
-	9050 2400 9150 2400
-Connection ~ 9150 2400
+	9050 2700 9150 2700
+Connection ~ 9150 2700
 Wire Wire Line
-	9150 2400 9250 2400
-Connection ~ 9250 2400
+	9150 2700 9250 2700
+Connection ~ 9250 2700
 Wire Wire Line
-	9250 2400 9350 2400
-Connection ~ 9350 2400
+	9250 2700 9350 2700
+Connection ~ 9350 2700
 Wire Wire Line
-	9350 2400 9450 2400
-Text GLabel 8850 5000 3    50   Input ~ 0
+	9350 2700 9450 2700
+Text GLabel 8850 5300 3    50   Input ~ 0
 GND
 Wire Wire Line
-	8850 5000 8950 5000
-Connection ~ 8950 5000
+	8850 5300 8950 5300
+Connection ~ 8950 5300
 Wire Wire Line
-	8950 5000 9050 5000
-Connection ~ 9050 5000
+	8950 5300 9050 5300
+Connection ~ 9050 5300
 Wire Wire Line
-	9050 5000 9150 5000
-Connection ~ 9150 5000
+	9050 5300 9150 5300
+Connection ~ 9150 5300
 Wire Wire Line
-	9150 5000 9250 5000
-Connection ~ 9250 5000
+	9150 5300 9250 5300
+Connection ~ 9250 5300
 Wire Wire Line
-	9250 5000 9350 5000
-Connection ~ 9350 5000
+	9250 5300 9350 5300
+Connection ~ 9350 5300
 Wire Wire Line
-	9350 5000 9450 5000
+	9350 5300 9450 5300
 Text GLabel 1450 4300 0    50   Input ~ 0
 nNTSC_8372_3V3
 $Comp
@@ -451,4 +451,54 @@ Text GLabel 10400 1500 3    50   Input ~ 0
 TCK
 Wire Wire Line
 	10400 1500 10500 1500
+Text GLabel 8350 2950 0    50   Input ~ 0
+A0_SDRAM
+Text GLabel 8350 3050 0    50   Input ~ 0
+A1_SDRAM
+Text GLabel 8350 3150 0    50   Input ~ 0
+A2_SDRAM
+Text GLabel 8350 3250 0    50   Input ~ 0
+A3_SDRAM
+Text GLabel 8350 3350 0    50   Input ~ 0
+A4_SDRAM
+Text GLabel 8350 3450 0    50   Input ~ 0
+A5_SDRAM
+Text GLabel 8350 3550 0    50   Input ~ 0
+A6_SDRAM
+Text GLabel 8350 3650 0    50   Input ~ 0
+A7_SDRAM
+Text GLabel 8350 3750 0    50   Input ~ 0
+A8_SDRAM
+Text GLabel 8350 3850 0    50   Input ~ 0
+A9_SDRAM
+Text GLabel 8350 3950 0    50   Input ~ 0
+A10_SDRAM
+Text GLabel 8350 4050 0    50   Input ~ 0
+A11_SDRAM
+Text GLabel 4050 1050 1    50   Output ~ 0
+A0_SDRAM
+Text GLabel 3950 1050 1    50   Output ~ 0
+A1_SDRAM
+Text GLabel 3850 1050 1    50   Output ~ 0
+A2_SDRAM
+Text GLabel 3750 1050 1    50   Output ~ 0
+A3_SDRAM
+Text GLabel 5100 900  1    50   Output ~ 0
+A4_SDRAM
+Text GLabel 5450 900  1    50   Output ~ 0
+A5_SDRAM
+Text GLabel 5550 900  1    50   Output ~ 0
+A6_SDRAM
+Text GLabel 5650 900  1    50   Output ~ 0
+A7_SDRAM
+Text GLabel 5750 900  1    50   Output ~ 0
+A8_SDRAM
+Text GLabel 5850 900  1    50   Output ~ 0
+A9_SDRAM
+Text GLabel 4150 1050 1    50   Output ~ 0
+A10_SDRAM
+Text GLabel 4950 900  1    50   Output ~ 0
+A11_SDRAM
+Text GLabel 3650 1050 1    50   Input ~ 0
+JP1
 $EndSCHEMATC
