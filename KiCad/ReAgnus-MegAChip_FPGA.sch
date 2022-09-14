@@ -394,61 +394,61 @@ nNTSC_8372_3V3
 $Comp
 L Device:R_Pack04 RN1
 U 1 1 6329F720
-P 9450 1300
-F 0 "RN1" H 9638 1346 50  0000 L CNN
-F 1 "R_Pack04" H 9638 1255 50  0000 L CNN
-F 2 "Agnus:RESCAF80P320X160X60-8N" V 9725 1300 50  0001 C CNN
-F 3 "~" H 9450 1300 50  0001 C CNN
-	1    9450 1300
+P 9050 1200
+F 0 "RN1" H 9238 1246 50  0000 L CNN
+F 1 "R_Pack04" H 9238 1155 50  0000 L CNN
+F 2 "Agnus:RESCAF80P320X160X60-8N" V 9325 1200 50  0001 C CNN
+F 3 "~" H 9050 1200 50  0001 C CNN
+	1    9050 1200
 	1    0    0    -1  
 $EndComp
-Text GLabel 9250 1100 1    50   Input ~ 0
+Text GLabel 8850 1000 1    50   Input ~ 0
 3V3
 Wire Wire Line
-	9250 1100 9350 1100
-Connection ~ 9350 1100
+	8850 1000 8950 1000
+Connection ~ 8950 1000
 Wire Wire Line
-	9350 1100 9450 1100
-Connection ~ 9450 1100
+	8950 1000 9050 1000
+Connection ~ 9050 1000
 Wire Wire Line
-	9450 1100 9550 1100
-Text GLabel 9550 1500 3    50   Input ~ 0
+	9050 1000 9150 1000
+Text GLabel 9150 1400 3    50   Input ~ 0
 RECONFIG_N
-Text GLabel 9450 1500 3    50   Input ~ 0
+Text GLabel 9050 1400 3    50   Input ~ 0
 DONE
-Text GLabel 9350 1500 3    50   Input ~ 0
+Text GLabel 8950 1400 3    50   Input ~ 0
 READY
-Text GLabel 9250 1500 3    50   Input ~ 0
+Text GLabel 8850 1400 3    50   Input ~ 0
 nNTSC_8372_3V3
-Text GLabel 10200 1100 1    50   Input ~ 0
+Text GLabel 10350 1000 1    50   Input ~ 0
 GND
-Text GLabel 10300 1500 3    50   Input ~ 0
+Text GLabel 10450 1400 3    50   Input ~ 0
 MODE1
-Text GLabel 10200 1500 3    50   Input ~ 0
+Text GLabel 10350 1400 3    50   Input ~ 0
 MODE0
 $Comp
 L Device:R_Pack04 RN2
 U 1 1 63318369
-P 10400 1300
-F 0 "RN2" H 10588 1346 50  0000 L CNN
-F 1 "R_Pack04" H 10588 1255 50  0000 L CNN
-F 2 "Agnus:RESCAF80P320X160X60-8N" V 10675 1300 50  0001 C CNN
-F 3 "~" H 10400 1300 50  0001 C CNN
-	1    10400 1300
+P 10550 1200
+F 0 "RN2" H 10738 1246 50  0000 L CNN
+F 1 "R_Pack04" H 10738 1155 50  0000 L CNN
+F 2 "Agnus:RESCAF80P320X160X60-8N" V 10825 1200 50  0001 C CNN
+F 3 "~" H 10550 1200 50  0001 C CNN
+	1    10550 1200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10200 1100 10300 1100
-Connection ~ 10300 1100
+	10350 1000 10450 1000
+Connection ~ 10450 1000
 Wire Wire Line
-	10300 1100 10400 1100
-Connection ~ 10400 1100
+	10450 1000 10550 1000
+Connection ~ 10550 1000
 Wire Wire Line
-	10400 1100 10500 1100
-Text GLabel 10400 1500 3    50   Input ~ 0
+	10550 1000 10650 1000
+Text GLabel 10550 1400 3    50   Input ~ 0
 TCK
 Wire Wire Line
-	10400 1500 10500 1500
+	10550 1400 10650 1400
 Text GLabel 8350 2950 0    50   Input ~ 0
 A0_SDRAM
 Text GLabel 8350 3050 0    50   Input ~ 0
@@ -533,7 +533,7 @@ Text GLabel 6350 1800 2    50   Output ~ 0
 WE_SDRAM
 Text GLabel 6350 1900 2    50   BiDi ~ 0
 DQML_SDRAM
-Text GLabel 6350 1600 2    50   Output ~ 0
+Text GLabel 6350 1600 2    50   Input ~ 0
 CLK_SDRAM
 Text GLabel 6350 1700 2    50   Output ~ 0
 CKE_SDRAM
@@ -566,4 +566,23 @@ Text GLabel 7600 2450 0    50   Input ~ 0
 A21
 Text GLabel 7600 2350 0    50   Input ~ 0
 A20
+$Comp
+L Oscillator:SG-8002CA X1
+U 1 1 636F2CC7
+P 9800 2050
+F 0 "X1" H 10050 2300 50  0000 L CNN
+F 1 "SG-8002CA" H 10144 2005 50  0001 L CNN
+F 2 "Oscillator:Oscillator_SMD_SeikoEpson_SG8002CA-4Pin_7.0x5.0mm" H 10500 1700 50  0001 C CNN
+F 3 "" H 9700 2050 50  0001 C CNN
+	1    9800 2050
+	1    0    0    -1  
+$EndComp
+Text GLabel 9800 1750 1    50   Input ~ 0
+3V3
+Text GLabel 9500 2050 0    50   Input ~ 0
+3V3
+Text GLabel 9800 2350 3    50   Input ~ 0
+GND
+Text GLabel 10100 2050 2    50   Output ~ 0
+CLK_SDRAM
 $EndSCHEMATC
