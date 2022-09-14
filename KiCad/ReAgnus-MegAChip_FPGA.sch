@@ -303,8 +303,6 @@ Text GLabel 3600 5950 3    50   Input ~ 0
 GCLKT_5
 Text GLabel 3800 5950 3    50   Input ~ 0
 GCLKT_4
-Text GLabel 6350 1600 2    50   Input ~ 0
-GCLKT_1
 Text GLabel 3550 1050 1    50   Input ~ 0
 MODE1
 Text GLabel 3450 1050 1    50   Input ~ 0
@@ -483,22 +481,89 @@ Text GLabel 3850 1050 1    50   Output ~ 0
 A2_SDRAM
 Text GLabel 3750 1050 1    50   Output ~ 0
 A3_SDRAM
-Text GLabel 5100 900  1    50   Output ~ 0
+Text GLabel 4550 1050 1    50   Output ~ 0
 A4_SDRAM
-Text GLabel 5450 900  1    50   Output ~ 0
+Text GLabel 4650 1050 1    50   Output ~ 0
 A5_SDRAM
-Text GLabel 5550 900  1    50   Output ~ 0
+Text GLabel 4750 1050 1    50   Output ~ 0
 A6_SDRAM
-Text GLabel 5650 900  1    50   Output ~ 0
+Text GLabel 4850 1050 1    50   Output ~ 0
 A7_SDRAM
-Text GLabel 5750 900  1    50   Output ~ 0
+Text GLabel 4950 1050 1    50   Output ~ 0
 A8_SDRAM
-Text GLabel 5850 900  1    50   Output ~ 0
+Text GLabel 5050 1050 1    50   Output ~ 0
 A9_SDRAM
 Text GLabel 4150 1050 1    50   Output ~ 0
 A10_SDRAM
-Text GLabel 4950 900  1    50   Output ~ 0
+Text GLabel 5150 1050 1    50   Output ~ 0
 A11_SDRAM
 Text GLabel 3650 1050 1    50   Input ~ 0
 JP1
+Text GLabel 8350 4200 0    50   Input ~ 0
+BA0_SDRAM
+Text GLabel 8350 4300 0    50   Input ~ 0
+BA1_SDRAM
+Text GLabel 4350 1050 1    50   Output ~ 0
+BA0_SDRAM
+Text GLabel 4250 1050 1    50   Output ~ 0
+BA1_SDRAM
+Text GLabel 8350 4450 0    50   Input ~ 0
+CLK_SDRAM
+Text GLabel 8350 4550 0    50   Input ~ 0
+CKE_SDRAM
+Text GLabel 8350 5050 0    50   Input ~ 0
+CS_SDRAM
+Text GLabel 8350 4700 0    50   Input ~ 0
+RAS_SDRAM
+Text GLabel 8350 4800 0    50   Input ~ 0
+CAS_SDRAM
+Text GLabel 8350 4900 0    50   Input ~ 0
+WE_SDRAM
+Text GLabel 9950 4700 2    50   BiDi ~ 0
+DQML_SDRAM
+Text GLabel 9950 4800 2    50   BiDi ~ 0
+DQMH_SDRAM
+Text GLabel 4450 1050 1    50   Output ~ 0
+CS_SDRAM
+Text GLabel 5250 1050 1    50   Output ~ 0
+RAS_SDRAM
+Text GLabel 6350 1500 2    50   Output ~ 0
+CAS_SDRAM
+Text GLabel 6350 1800 2    50   Output ~ 0
+WE_SDRAM
+Text GLabel 6350 1900 2    50   BiDi ~ 0
+DQML_SDRAM
+Text GLabel 6350 1600 2    50   Output ~ 0
+CLK_SDRAM
+Text GLabel 6350 1700 2    50   Output ~ 0
+CKE_SDRAM
+Text GLabel 6350 2000 2    50   BiDi ~ 0
+DQMH_SDRAM
+Text GLabel 7000 1050 2    50   Input ~ 0
+A20
+Text GLabel 7000 950  2    50   Input ~ 0
+A21
+Text GLabel 7000 850  2    50   Input ~ 0
+A22
+Text GLabel 7000 750  2    50   Input ~ 0
+A23
+Text GLabel 8100 2350 2    50   Input ~ 0
+A22
+Text GLabel 8100 2450 2    50   Input ~ 0
+A23
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J1
+U 1 1 636B90A6
+P 7800 2350
+F 0 "J1" H 7850 2567 50  0000 C CNN
+F 1 "Conn_02x02_Odd_Even" H 7850 2476 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x02_P2.00mm_Vertical" H 7800 2350 50  0001 C CNN
+F 3 "~" H 7800 2350 50  0001 C CNN
+	1    7800 2350
+	1    0    0    -1  
+$EndComp
+Text GLabel 7600 2450 0    50   Input ~ 0
+A21
+Text GLabel 7600 2350 0    50   Input ~ 0
+A20
 $EndSCHEMATC
