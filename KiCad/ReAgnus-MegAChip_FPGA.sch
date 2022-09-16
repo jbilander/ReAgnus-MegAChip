@@ -299,8 +299,6 @@ Text GLabel 1300 4100 0    50   Input ~ 0
 READY
 Text GLabel 1300 3100 0    50   Input ~ 0
 GCLKT_7
-Text GLabel 3450 5950 3    50   Input ~ 0
-GCLKT_5
 Text GLabel 3650 5950 3    50   Input ~ 0
 GCLKT_4
 Text GLabel 3400 1050 1    50   Input ~ 0
@@ -634,4 +632,23 @@ NoConn ~ 10950 4400
 NoConn ~ 10950 4500
 NoConn ~ 10950 4600
 NoConn ~ 10950 4700
+$Comp
+L ReAgnus-MegAChip:74LVC1GX04 U12
+U 1 1 637F9038
+P 5900 7050
+F 0 "U12" H 5900 7565 50  0000 C CNN
+F 1 "74LVC1GX04" H 5900 7474 50  0000 C CNN
+F 2 "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm" H 6400 8000 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/916/74LVC1GX04-2937637.pdf" H 6400 8000 50  0001 C CNN
+	1    5900 7050
+	1    0    0    -1  
+$EndComp
+Text GLabel 5450 7050 0    50   Input ~ 0
+GND
+Text GLabel 6350 7050 2    50   Input ~ 0
+3V3
+Text GLabel 6350 6850 2    50   Input ~ 0
+GCLKT_7
+Text GLabel 3450 5950 3    50   Input ~ 0
+JP2
 $EndSCHEMATC
