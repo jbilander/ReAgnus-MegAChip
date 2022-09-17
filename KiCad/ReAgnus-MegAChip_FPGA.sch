@@ -635,20 +635,136 @@ NoConn ~ 10950 4700
 $Comp
 L ReAgnus-MegAChip:74LVC1GX04 U12
 U 1 1 637F9038
-P 5900 7050
-F 0 "U12" H 5900 7565 50  0000 C CNN
-F 1 "74LVC1GX04" H 5900 7474 50  0000 C CNN
-F 2 "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm" H 6400 8000 50  0001 C CNN
-F 3 "https://www.mouser.se/datasheet/2/916/74LVC1GX04-2937637.pdf" H 6400 8000 50  0001 C CNN
-	1    5900 7050
-	1    0    0    -1  
+P 5850 7150
+F 0 "U12" H 5850 7665 50  0000 C CNN
+F 1 "74LVC1GX04" H 5850 7574 50  0000 C CNN
+F 2 "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm" H 6350 8100 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/916/74LVC1GX04-2937637.pdf" H 6350 8100 50  0001 C CNN
+	1    5850 7150
+	0    1    1    0   
 $EndComp
-Text GLabel 5450 7050 0    50   Input ~ 0
+Text GLabel 5850 6700 1    50   Input ~ 0
 GND
-Text GLabel 6350 7050 2    50   Input ~ 0
-3V3
-Text GLabel 6350 6850 2    50   Input ~ 0
+Text GLabel 6250 7650 2    50   Output ~ 0
 GCLKT_7
 Text GLabel 3450 5950 3    50   Input ~ 0
 JP2
+Text GLabel 5850 7600 3    50   Input ~ 0
+3V3
+$Comp
+L Device:Crystal_GND24 Y1
+U 1 1 638223FD
+P 4700 7150
+F 0 "Y1" V 4700 7100 50  0000 L CNN
+F 1 "CL=16pF" V 4850 6800 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm" H 4700 7150 50  0001 C CNN
+F 3 "~" H 4700 7150 50  0001 C CNN
+	1    4700 7150
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4400 7150 0    50   Input ~ 0
+GND
+Text GLabel 4900 7150 2    50   Input ~ 0
+GND
+Wire Wire Line
+	6250 7650 6050 7650
+Wire Wire Line
+	6050 7650 6050 7600
+$Comp
+L Device:C_Small C?
+U 1 1 6383AF05
+P 4500 7400
+AR Path="/6383AF05" Ref="C?"  Part="1" 
+AR Path="/632D3BDF/6383AF05" Ref="C?"  Part="1" 
+AR Path="/632F104D/6383AF05" Ref="C41"  Part="1" 
+F 0 "C41" V 4650 7350 50  0000 L CNN
+F 1 "32pF" V 4750 7350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4500 7400 50  0001 C CNN
+F 3 "~" H 4500 7400 50  0001 C CNN
+	1    4500 7400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4600 6900 4700 6900
+Wire Wire Line
+	4700 7000 4700 6900
+$Comp
+L Device:R_Small R1
+U 1 1 6384822D
+P 4950 7400
+F 0 "R1" V 4950 7400 50  0000 C CNN
+F 1 "1kΩ" V 5050 7400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4950 7400 50  0001 C CNN
+F 3 "~" H 4950 7400 50  0001 C CNN
+	1    4950 7400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 638497A5
+P 5200 7150
+F 0 "R2" H 5141 7104 50  0000 R CNN
+F 1 "2.2MΩ" H 5141 7195 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5200 7150 50  0001 C CNN
+F 3 "~" H 5200 7150 50  0001 C CNN
+	1    5200 7150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4700 6900 5200 6900
+Wire Wire Line
+	5200 6900 5200 6700
+Wire Wire Line
+	5200 6700 5650 6700
+Connection ~ 4700 6900
+Wire Wire Line
+	5200 7050 5200 6900
+Connection ~ 5200 6900
+$Comp
+L Device:C_Small C?
+U 1 1 63835116
+P 4500 6900
+AR Path="/63835116" Ref="C?"  Part="1" 
+AR Path="/632D3BDF/63835116" Ref="C?"  Part="1" 
+AR Path="/632F104D/63835116" Ref="C40"  Part="1" 
+F 0 "C40" V 4350 6850 50  0000 L CNN
+F 1 "32pF" V 4250 6850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4500 6900 50  0001 C CNN
+F 3 "~" H 4500 6900 50  0001 C CNN
+	1    4500 6900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4600 7400 4700 7400
+Wire Wire Line
+	4700 7300 4700 7400
+Connection ~ 4700 7400
+Wire Wire Line
+	4700 7400 4850 7400
+Wire Wire Line
+	5200 7250 5200 7400
+Wire Wire Line
+	5200 7600 5650 7600
+Wire Wire Line
+	5050 7400 5200 7400
+Connection ~ 5200 7400
+Wire Wire Line
+	5200 7400 5200 7600
+Wire Wire Line
+	4400 6900 4400 7150
+Wire Wire Line
+	4400 7150 4500 7150
+Connection ~ 4400 7150
+Wire Wire Line
+	4400 7150 4400 7400
+Wire Notes Line
+	6850 6500 6850 7800
+Text Notes 2800 6850 0    50   ~ 0
+Optional 28M Oscillator circuit\n28.375 MHz PAL or 28.6363 MHz NTSC\n3.2mm x 2.5 mm x 0.8 mm Crystal
+Wire Notes Line
+	2700 6500 2700 7800
+Wire Notes Line
+	2700 7800 6850 7800
+Wire Notes Line
+	2700 6500 6850 6500
 $EndSCHEMATC
