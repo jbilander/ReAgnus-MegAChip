@@ -253,10 +253,10 @@ DMAL_3V3
 Text GLabel 3550 5950 3    50   Input ~ 0
 BLISS_3V3
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J2
+L Connector_Generic:Conn_02x05_Odd_Even J1
 U 1 1 6329A00B
 P 7800 1700
-F 0 "J2" H 7850 2117 50  0000 C CNN
+F 0 "J1" H 7850 2117 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 7850 2026 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 7800 1700 50  0001 C CNN
 F 3 "~" H 7800 1700 50  0001 C CNN
@@ -550,10 +550,10 @@ A22
 Text GLabel 8100 2450 2    50   Input ~ 0
 A23
 $Comp
-L Connector_Generic:Conn_02x02_Odd_Even J1
+L Connector_Generic:Conn_02x02_Odd_Even J2
 U 1 1 636B90A6
 P 7800 2350
-F 0 "J1" H 7850 2567 50  0000 C CNN
+F 0 "J2" H 7850 2567 50  0000 C CNN
 F 1 "Conn_02x02_Odd_Even" H 7850 2476 50  0000 C CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_2x02_P2.00mm_Vertical" H 7800 2350 50  0001 C CNN
 F 3 "~" H 7800 2350 50  0001 C CNN
