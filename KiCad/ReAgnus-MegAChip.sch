@@ -1418,4 +1418,24 @@ Wire Wire Line
 Connection ~ 5000 7050
 Wire Wire Line
 	5000 7050 5800 7050
+$Comp
+L Device:C_Small C21
+U 1 1 638ABF1F
+P 5800 7450
+AR Path="/638ABF1F" Ref="C21"  Part="1" 
+AR Path="/632D3BDF/638ABF1F" Ref="C?"  Part="1" 
+AR Path="/632F104D/638ABF1F" Ref="C?"  Part="1" 
+F 0 "C21" H 5750 7300 50  0000 L CNN
+F 1 "0.1uF" H 5800 7200 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5800 7450 50  0001 C CNN
+F 3 "~" H 5800 7450 50  0001 C CNN
+	1    5800 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 7350 5800 7350
+Connection ~ 5600 7350
+Wire Wire Line
+	5600 7550 5800 7550
+Connection ~ 5600 7550
 $EndSCHEMATC
