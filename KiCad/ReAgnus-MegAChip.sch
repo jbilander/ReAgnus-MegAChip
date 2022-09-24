@@ -1029,13 +1029,13 @@ GND|nNTSC_8372
 Text GLabel 4300 7550 0    50   Input ~ 0
 GND
 $Comp
-L Device:C_Small C30
+L Device:C_Small C26
 U 1 1 631E37EB
 P 5800 6950
-AR Path="/631E37EB" Ref="C30"  Part="1" 
+AR Path="/631E37EB" Ref="C26"  Part="1" 
 AR Path="/632D3BDF/631E37EB" Ref="C?"  Part="1" 
 AR Path="/632F104D/631E37EB" Ref="C?"  Part="1" 
-F 0 "C30" H 5750 6800 50  0000 L CNN
+F 0 "C26" H 5750 6800 50  0000 L CNN
 F 1 "0.01uF" H 5550 6900 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5800 6950 50  0001 C CNN
 F 3 "~" H 5800 6950 50  0001 C CNN
@@ -1047,13 +1047,13 @@ Text GLabel 4300 7350 0    50   Input ~ 0
 Wire Wire Line
 	4300 6850 4400 6850
 $Comp
-L Device:C_Small C31
+L Device:C_Small C27
 U 1 1 632C350C
 P 5950 6950
-AR Path="/632C350C" Ref="C31"  Part="1" 
+AR Path="/632C350C" Ref="C27"  Part="1" 
 AR Path="/632D3BDF/632C350C" Ref="C?"  Part="1" 
 AR Path="/632F104D/632C350C" Ref="C?"  Part="1" 
-F 0 "C31" H 5900 6800 50  0000 L CNN
+F 0 "C27" H 5900 6800 50  0000 L CNN
 F 1 "0.01uF" H 5900 6700 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5950 6950 50  0001 C CNN
 F 3 "~" H 5950 6950 50  0001 C CNN
