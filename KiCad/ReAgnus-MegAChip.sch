@@ -288,18 +288,7 @@ NoConn ~ 650  6200
 NoConn ~ 650  6350
 NoConn ~ 650  6500
 NoConn ~ 650  6650
-$Comp
-L Connector_Generic:Conn_02x01 J3
-U 1 1 60E54D12
-P 1900 6650
-F 0 "J3" H 1950 6867 50  0000 C CNN
-F 1 "Conn_02x01" H 1950 6776 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical" H 1900 6650 50  0001 C CNN
-F 3 "~" H 1900 6650 50  0001 C CNN
-	1    1900 6650
-	1    0    0    -1  
-$EndComp
-Text GLabel 2200 6650 2    50   Input ~ 0
+Text GLabel 2000 6550 3    50   Input ~ 0
 GND
 Wire Wire Line
 	5650 5700 5750 5700
@@ -957,7 +946,7 @@ Text GLabel 8450 6300 2    50   Input ~ 0
 DRA0_3V3|GND
 Text GLabel 1700 7300 0    50   Input ~ 0
 VCC
-Text GLabel 1700 6650 0    50   Input ~ 0
+Text GLabel 1900 6550 3    50   Input ~ 0
 VCC
 Text GLabel 1850 7100 1    50   Input ~ 0
 GND
@@ -1518,4 +1507,17 @@ Wire Wire Line
 Connection ~ 5450 7050
 Wire Wire Line
 	5450 7050 5800 7050
+Text GLabel 2100 6550 3    50   Input ~ 0
+JP3
+$Comp
+L Connector_Generic:Conn_01x03 J3
+U 1 1 63977F90
+P 2000 6350
+F 0 "J3" V 1964 6162 50  0000 R CNN
+F 1 "Conn_01x03" V 1873 6162 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2000 6350 50  0001 C CNN
+F 3 "~" H 2000 6350 50  0001 C CNN
+	1    2000 6350
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

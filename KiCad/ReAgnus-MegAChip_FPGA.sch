@@ -305,7 +305,6 @@ Text GLabel 3400 1050 1    50   Input ~ 0
 MODE1
 Text GLabel 3300 1050 1    50   Input ~ 0
 MODE0
-NoConn ~ 1300 2450
 $Comp
 L Memory_RAM:AS4C4M16SA U10
 U 1 1 632B4228
@@ -767,4 +766,28 @@ Wire Notes Line
 	2700 7800 6850 7800
 Wire Notes Line
 	2700 6500 6850 6500
+Text GLabel 1000 1950 1    50   Input ~ 0
+3V3
+Wire Wire Line
+	1300 2450 600  2450
+Wire Wire Line
+	600  2450 600  2150
+Text GLabel 600  2050 1    50   Output ~ 0
+JP3
+$Comp
+L Device:R_Small R3
+U 1 1 6393E3FA
+P 1000 2050
+F 0 "R3" H 1059 2096 50  0000 L CNN
+F 1 "R_Small" H 1059 2005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1000 2050 50  0001 C CNN
+F 3 "~" H 1000 2050 50  0001 C CNN
+	1    1000 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	600  2150 1000 2150
+Connection ~ 600  2150
+Wire Wire Line
+	600  2150 600  2050
 $EndSCHEMATC
