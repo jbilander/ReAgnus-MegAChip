@@ -109,7 +109,7 @@ DRD1
 Text GLabel 1000 4700 0    50   BiDi ~ 0
 DRD0
 Text GLabel 1000 1150 0    50   Output ~ 0
-XLCK|A20
+XCLK|A20
 Text GLabel 1000 3050 0    50   Output ~ 0
 A1
 Text GLabel 1000 2950 0    50   Output ~ 0
@@ -476,7 +476,7 @@ DRD14
 Text GLabel 9750 3450 0    50   BiDi ~ 0
 DRD15
 Text GLabel 9750 4600 0    50   Input ~ 0
-XLCK|A20
+XCLK|A20
 Text GLabel 7450 4800 0    50   BiDi ~ 0
 DRA8|LDS
 Text GLabel 7450 4500 0    50   BiDi ~ 0
@@ -528,7 +528,7 @@ DRD1
 Text GLabel 4350 4700 0    50   BiDi ~ 0
 DRD0
 Text GLabel 4350 1150 0    50   Output ~ 0
-XLCK|A20
+XCLK|A20
 Text GLabel 4350 3050 0    50   Output ~ 0
 A1
 Text GLabel 4350 2950 0    50   Output ~ 0
@@ -668,7 +668,7 @@ GND
 Text GLabel 10750 4700 2    50   Input ~ 0
 GND
 Text GLabel 10750 4800 2    50   Output ~ 0
-XLCK|A20_3V3
+XCLK|A20_3V3
 Text GLabel 10750 4000 2    50   Input ~ 0
 GND
 Wire Wire Line

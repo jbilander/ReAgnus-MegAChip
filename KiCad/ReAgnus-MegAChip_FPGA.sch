@@ -155,7 +155,7 @@ A6_3V3
 Text GLabel 6200 4150 2    50   Input ~ 0
 A5_3V3
 Text GLabel 6200 5050 2    50   Input ~ 0
-XLCK|A20_3V3
+XCLK|A20_3V3
 Text GLabel 6200 5550 2    50   BiDi ~ 0
 HSYNC_3V3
 Text GLabel 6200 5450 2    50   Output ~ 0
