@@ -19,9 +19,6 @@ A ReAgnus MegaAChip PCB that takes a Gowin FPGA, a PLCC-84 plug, level shifters 
 <img src="pics/ReAgnus-MegAChip_pic4.png" width="450" height="292">
 </a>
 
-
-
-
 ***
 
 BOM Rev. 1A
@@ -39,3 +36,95 @@ U11 | Bus Transceiver 74LVC245APW,118 | TSSOP-20 | * [74LVC245APW-T](https://www
 U12 | X-tal driver 74LVC1GX04  | TSOP-6 1.65x3.05mm P0.95mm | * [74LVC1GX04](https://www.mouser.com/datasheet/2/916/74LVC1GX04-2937637.pdf)
 X1 | Clock Oscillator 100.0MHz | 7.0 x 5.0mm | * [831022731](https://www.mouser.com/ProductDetail/710-831022731)
 Y1 | 18pF Crystal 28.6363 MHz (NTSC) or 28.375 MHz (PAL) | 3.2 mm x 2.5 mm | * [ECS-286.3-18-33-JEM-TR](https://www.mouser.com/ProductDetail/520-286.3-18-33-JEMT) (NTSC)<br /> * [ABM8-28.375MHZ-B2-T](https://www.mouser.com/ProductDetail/815-ABM8-28.375-B2-T) (PAL)
+
+***
+
+<a href="pics/ReAgnus-MegAChip_pic5.png">
+<img src="pics/ReAgnus-MegAChip_pic5.png" width="500" height="328">
+</a>
+<a href="pics/ReAgnus-MegAChip_pic6.png">
+<img src="pics/ReAgnus-MegAChip_pic6.png" width="237" height="328">
+</a>
+
+***
+
+<a href="pics/ReAgnus-MegAChip_pic7.jpg">
+<img src="pics/ReAgnus-MegAChip_pic7.jpg" width="400" height="300">
+</a>
+<a href="pics/ReAgnus-MegAChip_pic8.jpg">
+<img src="pics/ReAgnus-MegAChip_pic8.jpg" width="400" height="300">
+</a>
+
+***
+
+<a href="pics/ReAgnus-MegAChip_pic9.jpg">
+<img src="pics/ReAgnus-MegAChip_pic9.jpg" width="400" height="300">
+</a>
+<a href="pics/ReAgnus-MegAChip_pic12.jpg">
+<img src="pics/ReAgnus-MegAChip_pic12.jpg" width="400" height="300">
+</a>
+
+***
+
+<a href="pics/ReAgnus-MegAChip_pic10.jpg">
+<img src="pics/ReAgnus-MegAChip_pic10.jpg" width="400" height="300">
+</a>
+<a href="pics/ReAgnus-MegAChip_pic11.jpg">
+<img src="pics/ReAgnus-MegAChip_pic11.jpg" width="400" height="300">
+</a>
+
+***
+
+<a href="pics/ReAgnus-MegAChip_pic13.jpg">
+<img src="pics/ReAgnus-MegAChip_pic13.jpg" width="400" height="300">
+</a>
+<a href="pics/A500_plus_ReAgnus_MegAChip_board.png">
+<img src="pics/A500_plus_ReAgnus_MegAChip_board.png" width="403" height="300">
+</a>
+
+***
+
+<a href="pics/A500_rev5_ReAgnus_MegAChip_board.png">
+<img src="pics/A500_rev5_ReAgnus_MegAChip_board.png" width="436" height="300">
+</a>
+<a href="pics/A500_rev6a_ReAgnus_MegAChip_board.png">
+<img src="pics/A500_rev6a_ReAgnus_MegAChip_board.png" width="435" height="300">
+</a>
+
+***
+
+<a href="pics/A2000_ReAgnus_MegAChip_board.png">
+<img src="pics/A2000_ReAgnus_MegAChip_board.png" width="345" height="300">
+</a>
+<a href="pics/A3000_ReAgnus_MegAChip_board.png">
+<img src="pics/A3000_ReAgnus_MegAChip_board.png" width="330" height="300">
+</a>
+
+***
+
+<a href="pics/ReAgnus-MegAChip_pic14.jpg">
+<img src="pics/ReAgnus-MegAChip_pic14.jpg" width="400" height="300">
+</a>
+<a href="pics/ReAgnus-MegAChip_pic15.jpg">
+<img src="pics/ReAgnus-MegAChip_pic15.jpg" width="400" height="300">
+</a>
+
+***
+
+<a href="pics/ReAgnus-MegAChip_pic16.jpg">
+<img src="pics/ReAgnus-MegAChip_pic16.jpg" width="400" height="300">
+</a>
+<a href="pics/ReAgnus-MegAChip_pic17.jpg">
+<img src="pics/ReAgnus-MegAChip_pic17.jpg" width="400" height="300">
+</a>
+
+***
+
+<a href="pics/ReAgnus-MegAChip_pic18.jpg">
+<img src="pics/ReAgnus-MegAChip_pic18.jpg" width="400" height="300">
+</a>
+<a href="pics/ReAgnus-MegAChip_pic19.png">
+<img src="pics/ReAgnus-MegAChip_pic19.png" width="585" height="300">
+</a>
+
+***
