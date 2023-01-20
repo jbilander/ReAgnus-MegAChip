@@ -20,6 +20,10 @@ A ReAgnus MegaAChip PCB that takes a Gowin FPGA, a PLCC-84 plug, level shifters 
 </a>
 
 ***
+For hi-res pics goto the hi-res folder in pics
+https://github.com/jbilander/ReAgnus-MegAChip/tree/main/pics/hi-res
+
+***
 
 BOM Rev. 1A
 ---------
