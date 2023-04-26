@@ -47,7 +47,7 @@ Y1 | 18pF Crystal 28.6363 MHz (NTSC) or 28.375 MHz (PAL) | 3.2 mm x 2.5 mm | * [
 R1 | Resistor 1k Ω | 0603 SMD | Resistor in optional Oscillator-circuit
 R2 | Resistor 2.2M Ω | 0603 SMD | Resistor in optional Oscillator-circuit
 R3 | Resistor 10k or 4.7k Ω | 0805 SMD | Pull-up resistor for JP3-pin (in J3-header)
-RN1 | CAY16-103J4LF RES ARRAY 4 Resistors 10k Ω | 1206 SMD | https://www.digikey.se/product-detail/sv/bourns-inc/CAY16-103J4LF/CAY16-103J4LFCT-ND/
+RN1 | CAY16-103J4LF RES ARRAY 4 Resistors 10k Ω | 1206 SMD | [CAY16-103J4LF](https://www.mouser.com/ProductDetail/652-CAY16-103J4LF)
 RN2 | CAY16-103J4LF RES ARRAY 4 Resistors 10k Ω | 1206 SMD | ---"---
 C1 | Capacitor Radial Polarized 100uF | 2.5mm pitch, Through-Hole |
 C2-C3 | Capacitor 10uF | 1206 SMD | 
