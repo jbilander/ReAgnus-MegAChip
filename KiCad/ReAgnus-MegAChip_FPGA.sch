@@ -564,9 +564,11 @@ A21
 Text GLabel 7600 2350 0    50   Input ~ 0
 A20
 $Comp
-L Oscillator:SG-8002CA X1
+L ReAgnus-MegAChip:SG-8002CA-Oscillator X1
 U 1 1 636F2CC7
 P 9800 2350
+AR Path="/636F2CC7" Ref="X1"  Part="1" 
+AR Path="/632F104D/636F2CC7" Ref="X1"  Part="1" 
 F 0 "X1" H 10050 2600 50  0000 L CNN
 F 1 "SG-8002CA" H 10144 2305 50  0001 L CNN
 F 2 "Oscillator:Oscillator_SMD_SeikoEpson_SG8002CA-4Pin_7.0x5.0mm" H 10500 2000 50  0001 C CNN

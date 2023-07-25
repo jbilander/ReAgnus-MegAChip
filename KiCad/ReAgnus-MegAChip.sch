@@ -240,54 +240,6 @@ Text GLabel 1000 5150 0    50   Output ~ 0
 RW
 Text GLabel 1000 5250 0    50   Output ~ 0
 AS
-$Comp
-L Connector_Generic:Conn_01x01 J4
-U 1 1 60D1FBEB
-P 850 6200
-F 0 "J4" H 930 6196 50  0000 L CNN
-F 1 "Conn_01x01" H 930 6151 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 850 6200 50  0001 C CNN
-F 3 "~" H 850 6200 50  0001 C CNN
-	1    850  6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J5
-U 1 1 60D20CDD
-P 850 6350
-F 0 "J5" H 930 6346 50  0000 L CNN
-F 1 "Conn_01x01" H 930 6301 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 850 6350 50  0001 C CNN
-F 3 "~" H 850 6350 50  0001 C CNN
-	1    850  6350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J6
-U 1 1 60D21648
-P 850 6500
-F 0 "J6" H 930 6496 50  0000 L CNN
-F 1 "Conn_01x01" H 930 6451 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 850 6500 50  0001 C CNN
-F 3 "~" H 850 6500 50  0001 C CNN
-	1    850  6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J7
-U 1 1 60D21D5E
-P 850 6650
-F 0 "J7" H 930 6646 50  0000 L CNN
-F 1 "Conn_01x01" H 930 6601 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 850 6650 50  0001 C CNN
-F 3 "~" H 850 6650 50  0001 C CNN
-	1    850  6650
-	1    0    0    -1  
-$EndComp
-NoConn ~ 650  6200
-NoConn ~ 650  6350
-NoConn ~ 650  6500
-NoConn ~ 650  6650
 Text GLabel 2000 6550 3    50   Input ~ 0
 GND
 Wire Wire Line
