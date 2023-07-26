@@ -16,6 +16,13 @@ THIS IS WORK IN PROGRESS AND NOT VERIFIED WORKING. BUILD AT YOUR OWN RISK.
 
 ***
 
+<a href="pics/ReAgnus-MegAChip_pic20.png">
+<img src="pics/ReAgnus-MegAChip_pic20.png" width="600" height="386">
+</a>
+
+***
+
+
 <a href="pics/ReAgnus-MegAChip_pic2.jpg">
 <img src="pics/ReAgnus-MegAChip_pic2.jpg" width="400" height="292">
 </a>
