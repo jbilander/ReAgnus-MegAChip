@@ -789,17 +789,17 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KIPRJMOD}/packages3d/PLCC-84-Plug-support.step
+    (model ${KIPRJMOD}/packages3d/PLCC-84-Plug-support-original_rev1c.step
       (offset (xyz -14.8 14.8 1.6))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 180 -90))
     )
-    (model ${KIPRJMOD}/packages3d/PLCC-84-Plug-support.step
+    (model ${KIPRJMOD}/packages3d/PLCC-84-Plug-support-original_rev1c.step
       (offset (xyz -14.8 14.8 3.25))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 180 -90))
     )
-    (model ${KIPRJMOD}/packages3d/PLCC-84-Plug-support.step
+    (model ${KIPRJMOD}/packages3d/PLCC-84-Plug-support-original_rev1c.step
       (offset (xyz -14.8 14.8 4.9))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 180 -90))
