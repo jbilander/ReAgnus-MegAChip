@@ -204,13 +204,13 @@ Text GLabel 1300 4500 0    50   Output ~ 0
 DRA1|DRA0_3V3
 Text GLabel 1300 4600 0    50   Output ~ 0
 DRA0_3V3|GND
-Text GLabel 1950 5950 3    50   Output ~ 0
+Text GLabel 2250 5950 3    50   Output ~ 0
 BLIT_3V3
-Text GLabel 2050 5950 3    50   Output ~ 0
+Text GLabel 2150 5950 3    50   Output ~ 0
 WE_3V3
-Text GLabel 2150 5950 3    50   Input ~ 0
+Text GLabel 2050 5950 3    50   Input ~ 0
 RW_3V3
-Text GLabel 2250 5950 3    50   Input ~ 0
+Text GLabel 1950 5950 3    50   Input ~ 0
 REGEN_3V3
 Text GLabel 1850 5950 3    50   Input ~ 0
 AS_3V3
