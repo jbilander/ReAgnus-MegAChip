@@ -1552,4 +1552,17 @@ Text GLabel 600  6550 0    50   Input ~ 0
 VCC
 Text GLabel 600  6950 3    50   Input ~ 0
 GND
+$Comp
+L Connector_Generic:Conn_01x01 J4
+U 1 1 669038FF
+P 950 5950
+F 0 "J4" H 1030 5992 50  0000 L CNN
+F 1 "Conn_01x01" H 1030 5901 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 950 5950 50  0001 C CNN
+F 3 "~" H 950 5950 50  0001 C CNN
+	1    950  5950
+	1    0    0    -1  
+$EndComp
+Text GLabel 750  5950 0    50   Input ~ 0
+GND
 $EndSCHEMATC
