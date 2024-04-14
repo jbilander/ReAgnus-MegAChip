@@ -228,8 +228,6 @@ Text GLabel 2300 5700 3    50   Input ~ 0
 GND
 Text GLabel 1550 5700 3    50   Output ~ 0
 28M
-Text GLabel 1650 5700 3    50   BiDi ~ 0
-CDAC|XCLKEN
 Wire Wire Line
 	2300 5700 2400 5700
 Text GLabel 1000 4950 0    50   BiDi ~ 0
@@ -240,7 +238,7 @@ Text GLabel 1000 5150 0    50   Output ~ 0
 RW
 Text GLabel 1000 5250 0    50   Output ~ 0
 AS
-Text GLabel 2000 6550 3    50   Input ~ 0
+Text GLabel 2350 6700 3    50   Input ~ 0
 GND
 Wire Wire Line
 	5650 5700 5750 5700
@@ -269,12 +267,12 @@ F 3 "" H 2250 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ReAgnus-MegAChip:SN74CBTD16210 U6
+L ReAgnus-MegAChip:SN74CBT16210 U6
 U 1 1 632E773E
 P 10250 5100
 F 0 "U6" H 10250 6467 50  0000 C CNN
-F 1 "SN74CBTD16210" H 10250 6376 50  0000 C CNN
-F 2 "Package_SO:TSSOP-48_6.1x12.5mm_P0.5mm" H 11900 5550 50  0001 C CNN
+F 1 "SN74CBT16210" H 10250 6376 50  0000 C CNN
+F 2 "Package_SO:TSSOP-48_4.4x9.7mm_P0.4mm" H 11900 5550 50  0001 C CNN
 F 3 "" H 11900 5550 50  0001 C CNN
 	1    10250 5100
 	1    0    0    -1  
@@ -664,12 +662,12 @@ A2_3V3
 Text GLabel 8450 5100 2    50   Output ~ 0
 A1_3V3
 $Comp
-L ReAgnus-MegAChip:SN74CBTD16210 U4
+L ReAgnus-MegAChip:SN74CBT16210 U4
 U 1 1 633D158E
 P 10250 2250
 F 0 "U4" H 10250 3617 50  0000 C CNN
-F 1 "SN74CBTD16210" H 10250 3526 50  0000 C CNN
-F 2 "Package_SO:TSSOP-48_6.1x12.5mm_P0.5mm" H 11900 2700 50  0001 C CNN
+F 1 "SN74CBT16210" H 10250 3526 50  0000 C CNN
+F 2 "Package_SO:TSSOP-48_4.4x9.7mm_P0.4mm" H 11900 2700 50  0001 C CNN
 F 3 "" H 11900 2700 50  0001 C CNN
 	1    10250 2250
 	1    0    0    -1  
@@ -727,12 +725,12 @@ VSYNC_3V3
 Text GLabel 10750 4500 2    50   Output ~ 0
 LPEN_3V3
 $Comp
-L ReAgnus-MegAChip:SN74CBTD16210 U3
+L ReAgnus-MegAChip:SN74CBT16210 U3
 U 1 1 634B56C3
 P 7950 2250
 F 0 "U3" H 7950 3617 50  0000 C CNN
-F 1 "SN74CBTD16210" H 7950 3526 50  0000 C CNN
-F 2 "Package_SO:TSSOP-48_6.1x12.5mm_P0.5mm" H 9600 2700 50  0001 C CNN
+F 1 "SN74CBT16210" H 7950 3526 50  0000 C CNN
+F 2 "Package_SO:TSSOP-48_4.4x9.7mm_P0.4mm" H 9600 2700 50  0001 C CNN
 F 3 "" H 9600 2700 50  0001 C CNN
 	1    7950 2250
 	1    0    0    -1  
@@ -750,12 +748,12 @@ GND
 Text GLabel 8450 2750 2    50   Input ~ 0
 GND
 $Comp
-L ReAgnus-MegAChip:SN74CBTD16210 U5
+L ReAgnus-MegAChip:SN74CBT16210 U5
 U 1 1 634CD3ED
 P 7950 5100
 F 0 "U5" H 7950 6467 50  0000 C CNN
-F 1 "SN74CBTD16210" H 7950 6376 50  0000 C CNN
-F 2 "Package_SO:TSSOP-48_6.1x12.5mm_P0.5mm" H 9600 5550 50  0001 C CNN
+F 1 "SN74CBT16210" H 7950 6376 50  0000 C CNN
+F 2 "Package_SO:TSSOP-48_4.4x9.7mm_P0.4mm" H 9600 5550 50  0001 C CNN
 F 3 "" H 9600 5550 50  0001 C CNN
 	1    7950 5100
 	1    0    0    -1  
@@ -773,7 +771,7 @@ GND
 Text GLabel 8450 5600 2    50   Input ~ 0
 GND
 Text GLabel 9150 2550 0    50   Input ~ 0
-VCC
+4V3
 Text GLabel 10750 1650 2    50   Output ~ 0
 RESET_3V3
 Text GLabel 10750 1550 2    50   Input ~ 0
@@ -846,7 +844,7 @@ Wire Wire Line
 Wire Wire Line
 	9150 2350 9250 2350
 Text GLabel 7000 5400 0    50   Input ~ 0
-VCC
+4V3
 Text GLabel 7000 5200 0    50   Input ~ 0
 GND
 Wire Wire Line
@@ -854,7 +852,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 5200 7100 5200
 Text GLabel 9250 5400 0    50   Input ~ 0
-VCC
+4V3
 Text GLabel 9250 5200 0    50   Input ~ 0
 GND
 Wire Wire Line
@@ -868,7 +866,7 @@ Wire Wire Line
 	7100 5400 7450 5400
 Connection ~ 7100 5400
 Text GLabel 6900 2550 0    50   Input ~ 0
-VCC
+4V3
 Text GLabel 6900 2350 0    50   Input ~ 0
 GND
 Wire Wire Line
@@ -898,7 +896,7 @@ Text GLabel 8450 6300 2    50   Input ~ 0
 DRA0_3V3|GND
 Text GLabel 1700 7300 0    50   Input ~ 0
 VCC
-Text GLabel 1900 6550 3    50   Input ~ 0
+Text GLabel 2250 6700 3    50   Input ~ 0
 VCC
 Text GLabel 1850 7100 1    50   Input ~ 0
 GND
@@ -1459,17 +1457,99 @@ Wire Wire Line
 Connection ~ 5450 7050
 Wire Wire Line
 	5450 7050 5800 7050
-Text GLabel 2100 6550 3    50   Input ~ 0
+Text GLabel 2450 6700 3    50   Input ~ 0
 JP3
 $Comp
 L Connector_Generic:Conn_01x03 J3
 U 1 1 63977F90
-P 2000 6350
-F 0 "J3" V 1964 6162 50  0000 R CNN
-F 1 "Conn_01x03" V 1873 6162 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2000 6350 50  0001 C CNN
-F 3 "~" H 2000 6350 50  0001 C CNN
-	1    2000 6350
+P 2350 6500
+F 0 "J3" V 2314 6312 50  0000 R CNN
+F 1 "Conn_01x03" V 2223 6312 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2350 6500 50  0001 C CNN
+F 3 "~" H 2350 6500 50  0001 C CNN
+	1    2350 6500
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Regulator_Linear:TPS73643DBV U13
+U 1 1 661AF7F8
+P 1150 6650
+F 0 "U13" H 1150 7017 50  0000 C CNN
+F 1 "TPS73643DBV" H 1150 6926 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 1150 6975 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tps736.pdf" H 1150 6600 50  0001 C CNN
+	1    1150 6650
+	1    0    0    -1  
+$EndComp
+Text GLabel 1650 5700 3    50   BiDi ~ 0
+CDAC|XCLKEN
+$Comp
+L Device:C_Small C28
+U 1 1 661B6113
+P 600 6650
+AR Path="/661B6113" Ref="C28"  Part="1" 
+AR Path="/632D3BDF/661B6113" Ref="C?"  Part="1" 
+AR Path="/632F104D/661B6113" Ref="C?"  Part="1" 
+F 0 "C28" H 550 6950 50  0000 L CNN
+F 1 "10uF" H 500 6850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 600 6650 50  0001 C CNN
+F 3 "~" H 600 6650 50  0001 C CNN
+	1    600  6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	600  6750 600  6950
+Wire Wire Line
+	600  6950 1150 6950
+Wire Wire Line
+	600  6550 750  6550
+Wire Wire Line
+	750  6550 750  6650
+Connection ~ 750  6550
+$Comp
+L Device:C_Small C30
+U 1 1 661BF4C9
+P 1700 6650
+AR Path="/661BF4C9" Ref="C30"  Part="1" 
+AR Path="/632D3BDF/661BF4C9" Ref="C?"  Part="1" 
+AR Path="/632F104D/661BF4C9" Ref="C?"  Part="1" 
+F 0 "C30" H 1650 6950 50  0000 L CNN
+F 1 "10uF" H 1600 6850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1700 6650 50  0001 C CNN
+F 3 "~" H 1700 6650 50  0001 C CNN
+	1    1700 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 6550 1700 6550
+Connection ~ 1700 6550
+Wire Wire Line
+	1700 6550 1800 6550
+Text GLabel 1800 6550 2    50   Output ~ 0
+4V3
+Wire Wire Line
+	1150 6950 1550 6950
+Wire Wire Line
+	1700 6950 1700 6750
+Connection ~ 1150 6950
+$Comp
+L Device:C_Small C29
+U 1 1 661C65A2
+P 1550 6750
+F 0 "C29" H 1550 6600 50  0000 L CNN
+F 1 "0.1uF" H 1300 6600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1550 6750 50  0001 C CNN
+F 3 "~" H 1550 6750 50  0001 C CNN
+	1    1550 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 6850 1550 6950
+Connection ~ 1550 6950
+Wire Wire Line
+	1550 6950 1700 6950
+Text GLabel 600  6550 0    50   Input ~ 0
+VCC
+Text GLabel 600  6950 3    50   Input ~ 0
+GND
 $EndSCHEMATC
