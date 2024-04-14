@@ -305,87 +305,6 @@ Text GLabel 3400 1050 1    50   Input ~ 0
 MODE1
 Text GLabel 3300 1050 1    50   Input ~ 0
 MODE0
-$Comp
-L Memory_RAM:AS4C4M16SA U10
-U 1 1 632B4228
-P 8200 4500
-F 0 "U10" H 8200 5981 50  0000 C CNN
-F 1 "AS4C4M16SA" H 8200 5890 50  0000 C CNN
-F 2 "Package_SO:TSOP-II-54_22.2x10.16mm_P0.8mm" H 8200 4500 50  0001 C CIN
-F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/dram/64M-AS4C4M16SA-CI_v3.0_March%202015.pdf" H 8200 4250 50  0001 C CNN
-	1    8200 4500
-	1    0    0    -1  
-$EndComp
-Text GLabel 9000 3450 2    50   BiDi ~ 0
-DRD0_3V3
-Text GLabel 9000 3550 2    50   BiDi ~ 0
-DRD1_3V3
-Text GLabel 9000 3650 2    50   BiDi ~ 0
-DRD2_3V3
-Text GLabel 9000 3750 2    50   BiDi ~ 0
-DRD3_3V3
-Text GLabel 9000 3850 2    50   BiDi ~ 0
-DRD4_3V3
-Text GLabel 9000 3950 2    50   BiDi ~ 0
-DRD5_3V3
-Text GLabel 9000 4050 2    50   BiDi ~ 0
-DRD6_3V3
-Text GLabel 9000 4150 2    50   BiDi ~ 0
-DRD7_3V3
-Text GLabel 9000 4250 2    50   BiDi ~ 0
-DRD8_3V3
-Text GLabel 9000 4350 2    50   BiDi ~ 0
-DRD9_3V3
-Text GLabel 9000 4450 2    50   BiDi ~ 0
-DRD10_3V3
-Text GLabel 9000 4550 2    50   BiDi ~ 0
-DRD11_3V3
-Text GLabel 9000 4650 2    50   BiDi ~ 0
-DRD12_3V3
-Text GLabel 9000 4750 2    50   BiDi ~ 0
-DRD13_3V3
-Text GLabel 9000 4850 2    50   BiDi ~ 0
-DRD14_3V3
-Text GLabel 9000 4950 2    50   BiDi ~ 0
-DRD15_3V3
-Text GLabel 7900 3200 1    50   Input ~ 0
-3V3
-Wire Wire Line
-	7900 3200 8000 3200
-Connection ~ 8000 3200
-Wire Wire Line
-	8000 3200 8100 3200
-Connection ~ 8100 3200
-Wire Wire Line
-	8100 3200 8200 3200
-Connection ~ 8200 3200
-Wire Wire Line
-	8200 3200 8300 3200
-Connection ~ 8300 3200
-Wire Wire Line
-	8300 3200 8400 3200
-Connection ~ 8400 3200
-Wire Wire Line
-	8400 3200 8500 3200
-Text GLabel 7900 5800 3    50   Input ~ 0
-GND
-Wire Wire Line
-	7900 5800 8000 5800
-Connection ~ 8000 5800
-Wire Wire Line
-	8000 5800 8100 5800
-Connection ~ 8100 5800
-Wire Wire Line
-	8100 5800 8200 5800
-Connection ~ 8200 5800
-Wire Wire Line
-	8200 5800 8300 5800
-Connection ~ 8300 5800
-Wire Wire Line
-	8300 5800 8400 5800
-Connection ~ 8400 5800
-Wire Wire Line
-	8400 5800 8500 5800
 Text GLabel 1300 4300 0    50   Input ~ 0
 nNTSC_8372_3V3
 $Comp
@@ -446,103 +365,15 @@ Text GLabel 10550 1400 3    50   Input ~ 0
 TCK
 Wire Wire Line
 	10550 1400 10650 1400
-Text GLabel 7400 3450 0    50   Input ~ 0
-A0_SDRAM
-Text GLabel 7400 3550 0    50   Input ~ 0
-A1_SDRAM
-Text GLabel 7400 3650 0    50   Input ~ 0
-A2_SDRAM
-Text GLabel 7400 3750 0    50   Input ~ 0
-A3_SDRAM
-Text GLabel 7400 3850 0    50   Input ~ 0
-A4_SDRAM
-Text GLabel 7400 3950 0    50   Input ~ 0
-A5_SDRAM
-Text GLabel 7400 4050 0    50   Input ~ 0
-A6_SDRAM
-Text GLabel 7400 4150 0    50   Input ~ 0
-A7_SDRAM
-Text GLabel 7400 4250 0    50   Input ~ 0
-A8_SDRAM
-Text GLabel 7400 4350 0    50   Input ~ 0
-A9_SDRAM
-Text GLabel 7400 4450 0    50   Input ~ 0
-A10_SDRAM
-Text GLabel 7400 4550 0    50   Input ~ 0
-A11_SDRAM
-Text GLabel 3900 1050 1    50   Output ~ 0
-A0_SDRAM
-Text GLabel 3800 1050 1    50   Output ~ 0
-A1_SDRAM
-Text GLabel 3700 1050 1    50   Output ~ 0
-A2_SDRAM
-Text GLabel 3600 1050 1    50   Output ~ 0
-A3_SDRAM
-Text GLabel 4400 1050 1    50   Output ~ 0
-A4_SDRAM
-Text GLabel 4500 1050 1    50   Output ~ 0
-A5_SDRAM
-Text GLabel 4600 1050 1    50   Output ~ 0
-A6_SDRAM
-Text GLabel 4700 1050 1    50   Output ~ 0
-A7_SDRAM
-Text GLabel 4800 1050 1    50   Output ~ 0
-A8_SDRAM
-Text GLabel 4900 1050 1    50   Output ~ 0
-A9_SDRAM
-Text GLabel 4000 1050 1    50   Output ~ 0
-A10_SDRAM
-Text GLabel 5000 1050 1    50   Output ~ 0
-A11_SDRAM
 Text GLabel 3500 1050 1    50   Input ~ 0
 JP1
-Text GLabel 7400 4700 0    50   Input ~ 0
-BA0_SDRAM
-Text GLabel 7400 4800 0    50   Input ~ 0
-BA1_SDRAM
-Text GLabel 4200 1050 1    50   Output ~ 0
-BA0_SDRAM
-Text GLabel 4100 1050 1    50   Output ~ 0
-BA1_SDRAM
-Text GLabel 7400 4950 0    50   Input ~ 0
-CLK_SDRAM
-Text GLabel 7400 5050 0    50   Input ~ 0
-CKE_SDRAM
-Text GLabel 7400 5550 0    50   Input ~ 0
-CS_SDRAM
-Text GLabel 7400 5200 0    50   Input ~ 0
-RAS_SDRAM
-Text GLabel 7400 5300 0    50   Input ~ 0
-CAS_SDRAM
-Text GLabel 7400 5400 0    50   Input ~ 0
-WE_SDRAM
-Text GLabel 9000 5200 2    50   BiDi ~ 0
-DQML_SDRAM
-Text GLabel 9000 5300 2    50   BiDi ~ 0
-DQMH_SDRAM
-Text GLabel 4300 1050 1    50   Output ~ 0
-CS_SDRAM
-Text GLabel 5100 1050 1    50   Output ~ 0
-RAS_SDRAM
-Text GLabel 6200 1500 2    50   Output ~ 0
-CAS_SDRAM
-Text GLabel 6200 1800 2    50   Output ~ 0
-WE_SDRAM
-Text GLabel 6200 1900 2    50   BiDi ~ 0
-DQML_SDRAM
-Text GLabel 6200 1600 2    50   Input ~ 0
-CLK_SDRAM
-Text GLabel 6200 1700 2    50   Output ~ 0
-CKE_SDRAM
-Text GLabel 6200 2000 2    50   BiDi ~ 0
-DQMH_SDRAM
-Text GLabel 9950 4000 0    50   Input ~ 0
+Text GLabel 8350 3750 0    50   Input ~ 0
 A20
-Text GLabel 9950 4100 0    50   Input ~ 0
+Text GLabel 8350 3850 0    50   Input ~ 0
 A21
-Text GLabel 9950 4200 0    50   Input ~ 0
+Text GLabel 8350 3950 0    50   Input ~ 0
 A22
-Text GLabel 9950 4300 0    50   Input ~ 0
+Text GLabel 8350 4050 0    50   Input ~ 0
 A23
 Text GLabel 7600 2450 0    50   Input ~ 0
 A22
@@ -563,38 +394,17 @@ Text GLabel 8100 2350 2    50   Input ~ 0
 A21
 Text GLabel 7600 2350 0    50   Input ~ 0
 A20
-$Comp
-L ReAgnus-MegAChip:SG-8002CA-Oscillator X1
-U 1 1 636F2CC7
-P 9800 2350
-AR Path="/636F2CC7" Ref="X1"  Part="1" 
-AR Path="/632F104D/636F2CC7" Ref="X1"  Part="1" 
-F 0 "X1" H 10050 2600 50  0000 L CNN
-F 1 "SG-8002CA" H 10144 2305 50  0001 L CNN
-F 2 "Oscillator:Oscillator_SMD_SeikoEpson_SG8002CA-4Pin_7.0x5.0mm" H 10500 2000 50  0001 C CNN
-F 3 "" H 9700 2350 50  0001 C CNN
-	1    9800 2350
-	1    0    0    -1  
-$EndComp
-Text GLabel 9800 2050 1    50   Input ~ 0
-3V3
-Text GLabel 9500 2350 0    50   Input ~ 0
-3V3
-Text GLabel 9800 2650 3    50   Input ~ 0
+Text GLabel 8350 4450 0    50   Input ~ 0
 GND
-Text GLabel 10100 2350 2    50   Output ~ 0
-CLK_SDRAM
-Text GLabel 9950 4700 0    50   Input ~ 0
+Text GLabel 8350 4750 0    50   Input ~ 0
 GND
-Text GLabel 9950 5000 0    50   Input ~ 0
-GND
-Text GLabel 10950 4000 2    50   Output ~ 0
+Text GLabel 9350 3750 2    50   Output ~ 0
 A20_3V3
-Text GLabel 10950 4100 2    50   Output ~ 0
+Text GLabel 9350 3850 2    50   Output ~ 0
 A21_3V3
-Text GLabel 10950 4200 2    50   Output ~ 0
+Text GLabel 9350 3950 2    50   Output ~ 0
 A22_3V3
-Text GLabel 10950 4300 2    50   Output ~ 0
+Text GLabel 9350 4050 2    50   Output ~ 0
 A23_3V3
 Text GLabel 6200 2100 2    50   Input ~ 0
 A20_3V3
@@ -607,32 +417,32 @@ A23_3V3
 $Comp
 L ReAgnus-MegAChip:74LVC245A U11
 U 1 1 6376E0A1
-P 10450 4500
-F 0 "U11" H 10450 5481 50  0000 C CNN
-F 1 "74LVC245A" H 10450 5390 50  0000 C CNN
-F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 10450 4500 50  0001 C CNN
-F 3 "https://www.mouser.se/datasheet/2/916/74LVC_LVCH245A-1389000.pdf" H 10450 4500 50  0001 C CNN
-	1    10450 4500
+P 8850 4250
+F 0 "U11" H 8850 5231 50  0000 C CNN
+F 1 "74LVC245A" H 8850 5140 50  0000 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 8850 4250 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/916/74LVC_LVCH245A-1389000.pdf" H 8850 4250 50  0001 C CNN
+	1    8850 4250
 	1    0    0    -1  
 $EndComp
-Text GLabel 10450 5300 3    50   Input ~ 0
+Text GLabel 8850 5050 3    50   Input ~ 0
 GND
-Text GLabel 10450 3700 2    50   Input ~ 0
+Text GLabel 8850 3450 2    50   Input ~ 0
 3V3
-Text GLabel 9950 4900 0    50   Input ~ 0
+Text GLabel 8350 4650 0    50   Input ~ 0
 3V3
 Wire Wire Line
-	9950 4400 9950 4500
-Connection ~ 9950 4500
+	8350 4150 8350 4250
+Connection ~ 8350 4250
 Wire Wire Line
-	9950 4500 9950 4600
-Connection ~ 9950 4600
+	8350 4250 8350 4350
+Connection ~ 8350 4350
 Wire Wire Line
-	9950 4600 9950 4700
-NoConn ~ 10950 4400
-NoConn ~ 10950 4500
-NoConn ~ 10950 4600
-NoConn ~ 10950 4700
+	8350 4350 8350 4450
+NoConn ~ 9350 4150
+NoConn ~ 9350 4250
+NoConn ~ 9350 4350
+NoConn ~ 9350 4450
 $Comp
 L ReAgnus-MegAChip:74LVC1GX04 U12
 U 1 1 637F9038
