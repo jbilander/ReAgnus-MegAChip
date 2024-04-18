@@ -55,7 +55,7 @@ R2 | Resistor 2.2M Ω | 0603 SMD | Resistor in optional Oscillator-circuit
 R3 | Resistor 33 Ω | 0805 SMD | Series resistor for CLK from U9 to avoid reflections (in optional Oscillator-circuit).
 RN1 | 4.7k or 10k Ω RES ARRAY 4 Resistors | 1206 | [CAY16-4701F4LF](https://www.mouser.com/ProductDetail/652-CAY16A-4701F4LF) or [CAY16-103J4LF](https://www.mouser.com/ProductDetail/652-CAY16-103J4LF)
 RN2 | 4.7k (CAY16-4701F4LF) RES ARRAY 4 Resistors | 1206 | [CAY16-4701F4LF](https://www.mouser.com/ProductDetail/652-CAY16A-4701F4LF)
-C1 | Capacitor Radial Polarized 100uF | 2.5mm pitch, Through-Hole |
+C1 | Capacitor Radial Polarized 100uF | 2.5mm pitch, Through-Hole | [ECE-A0JKA101I](https://www.mouser.com/ProductDetail/667-ECE-A0JKA101I)
 C2-C4 | Capacitor 10uF | 1206 | 
 C5 | Capacitor 1uF | 0805 | 
 C6-C16 | Capacitor 0.1uF = 100nF | 0805 |
@@ -65,7 +65,7 @@ C25 | Capacitor 0.1uF = 100nF | 0603 | Optional cap for U3, NR (Noise Reduction)
 C26-C27 | Capacitor 0.01uF = 10nF | 0603 |
 C28-C29 | Multilayer Ceramic Capacitors MLCC - 32pF | 0603 | [06031A320FAT2A ](https://www.mouser.com/ProductDetail/581-06031A320FAT2A) Caps for optional oscillator circuit 
 J1 | VCC/GND Power Header Male | TH 1 x 2 Pin, 2.54mm pitch | For external power supply to allow programming of device when not plugged into the Amiga socket.
-J2 | JTAG1 Pin Header Male | TH 2 x 5 Pin, 2.54mm pitch|
+J2 | JTAG Pin Header Male | TH 2 x 5 Pin, 2.54mm pitch|
 J3 | A20-A23 Pin Header Male | TH 2 x 2 Pin, 2.00mm pitch | Input Address lines for jumper-wires A20-A23
 J4 | GND MountingHole_2.2mm_M2_Pad_Via | nut and bolt M2 size | for solid grounding via a ring lug connector and a thick jumper wire to Motherboard
 
