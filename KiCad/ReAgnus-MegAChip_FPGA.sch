@@ -210,7 +210,7 @@ Text GLabel 3600 850  1    50   Input ~ 0
 MODE1
 Text GLabel 3500 850  1    50   Input ~ 0
 MODE0
-Text GLabel 1500 4000 0    50   Input ~ 0
+Text GLabel 1500 4100 0    50   Input ~ 0
 nNTSC_8372_3V3
 Text GLabel 3700 850  1    50   Input ~ 0
 nNTSC
@@ -613,6 +613,6 @@ Wire Wire Line
 NoConn ~ 3500 5750
 Text GLabel 10100 1450 3    50   Input ~ 0
 nNTSC
-NoConn ~ 1500 4100
+NoConn ~ 1500 4000
 NoConn ~ 1500 2900
 $EndSCHEMATC
