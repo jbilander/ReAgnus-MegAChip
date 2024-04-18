@@ -10,27 +10,32 @@ THIS IS WORK IN PROGRESS AND NOT VERIFIED WORKING. BUILD AT YOUR OWN RISK.
 <a href="pics/ReAgnus-MegAChip_pic1.jpg">
 <img src="pics/ReAgnus-MegAChip_pic1.jpg" width="400" height="300">
 </a>
-<a href="pics/ReAgnus-MegAChip_pic3.png">
-<img src="pics/ReAgnus-MegAChip_pic3.png" width="462" height="300">
+<a href="pics/ReAgnus-MegAChip_pic21.png">
+<img src="pics/ReAgnus-MegAChip_pic21.png" width="459" height="300">
 </a>
 
 ***
-
-<a href="pics/ReAgnus-MegAChip_pic20.png">
-<img src="pics/ReAgnus-MegAChip_pic20.png" width="600" height="386">
-</a>
-
-***
-
 
 <a href="pics/ReAgnus-MegAChip_pic2.jpg">
 <img src="pics/ReAgnus-MegAChip_pic2.jpg" width="400" height="292">
 </a>
-<a href="pics/ReAgnus-MegAChip_pic4.png">
-<img src="pics/ReAgnus-MegAChip_pic4.png" width="450" height="292">
+<a href="pics/ReAgnus-MegAChip_pic22.png">
+<img src="pics/ReAgnus-MegAChip_pic22.png" width="455" height="300">
+</a>
+<br />
+<a href="pics/ReAgnus-MegAChip_pic23.png">
+<img src="pics/ReAgnus-MegAChip_pic23.png" width="800" height="311">
+</a>
+<a href="pics/ReAgnus-MegAChip_pic24.png">
+<img src="pics/ReAgnus-MegAChip_pic24.png" width="800" height="453">
 </a>
 
 ***
+
+
+
+***
+
 For hi-res pics goto the hi-res folder in pics
 https://github.com/jbilander/ReAgnus-MegAChip/tree/main/pics/hi-res
 
