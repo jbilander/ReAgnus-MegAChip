@@ -52,8 +52,8 @@ U4,U5,U6,U7 | Digital Bus Switch ICs 20-Bit FET, SN74CBT16210CDGVR | TVSOP-48 | 
 U8 | 74LVC1G07 Single Buffer With Open-Drain Output | SOT-353, SC-70-5 | [74LVC1G07](https://www.mouser.com/ProductDetail/621-74LVC1G07SE-7)
 U9 | X-tal driver 74LVC1GX04  | TSOP-6 1.65x3.05mm P0.95mm | [74LVC1GX04](https://www.mouser.com/ProductDetail/771-LVC1GX04GV125)
 U10 | Bus Transceiver 74LVC245APW,118 | TSSOP-20 | [74LVC245APW-T](https://www.mouser.com/ProductDetail/771-74LVC245APW-T)
-U11 | Winslow PLCC-84 Plug | PLCC-84 Plug | Optionally home made plug
-U12 | PLCC-84_TH_pin_holes | Agnus_TH_plug_pins | Optionally used with home made plug
+U11 | Winslow PLCC-84 Plug | PLCC-84 Plug | Optionally homemade plug
+U12 | PLCC-84_TH_pin_holes | Agnus_TH_plug_pins | Pins to use with homemade plug, 1.27mm pitch Long Pin 1x40P L14mm [Aliexpress](https://www.aliexpress.com/item/32894911767.html) Cut to length after soldering.
 Y1 | 18pF Crystal 28.6363 MHz (NTSC) or 28.375 MHz (PAL) | 3.2 mm x 2.5 mm | [ECS-286.3-18-33-JEM-TR](https://www.mouser.com/ProductDetail/520-286.3-18-33-JEMT) (NTSC)<br /> [ABM8-28.375MHZ-B2-T](https://www.mouser.com/ProductDetail/815-ABM8-28.375-B2-T) (PAL)
 R1 | Resistor 1k Ω | 0603 SMD | Resistor in optional Oscillator-circuit
 R2 | Resistor 2.2M Ω | 0603 SMD | Resistor in optional Oscillator-circuit
