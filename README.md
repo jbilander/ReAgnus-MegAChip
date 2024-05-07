@@ -3,7 +3,7 @@ A ReAgnus MegaAChip PCB that takes a Gowin FPGA with embedded PSRAM, a PLCC-84 p
 
 ***
 
-THIS IS WORK IN PROGRESS AND NOT VERIFIED WORKING. BUILD AT YOUR OWN RISK.
+THIS IS WORK IN PROGRESS, HARDWARE IS VERIFIED WORKING. FIRMWARE YET TO BE DEVELOPED. BUILD AT YOUR OWN RISK.
 
 ***
 
@@ -41,7 +41,7 @@ https://github.com/jbilander/ReAgnus-MegAChip/tree/main/pics/hi-res
 
 ***
 
-BOM Rev. 2A
+BOM Rev. 2B
 ---------
 Designator  | Name/Value   | Package | Notes
 -|-|-|-|
@@ -55,9 +55,10 @@ U10 | Bus Transceiver 74LVC245APW,118 | TSSOP-20 | [74LVC245APW-T](https://www.m
 U11 | Winslow PLCC-84 Plug | PLCC-84 Plug | Optionally homemade plug
 U12 | PLCC-84_TH_pin_holes | Agnus_TH_plug_pins | Pins to use with homemade plug, 1.27mm pitch Long Pin 1x40P L14mm [Aliexpress](https://www.aliexpress.com/item/32894911767.html) Cut to length after soldering.
 Y1 | 18pF Crystal 28.6363 MHz (NTSC) or 28.375 MHz (PAL) | 3.2 mm x 2.5 mm | [ECS-286.3-18-33-JEM-TR](https://www.mouser.com/ProductDetail/520-286.3-18-33-JEMT) (NTSC)<br /> [ABM8-28.375MHZ-B2-T](https://www.mouser.com/ProductDetail/815-ABM8-28.375-B2-T) (PAL)
-R1 | Resistor 1k Ω | 0603 SMD | Resistor in optional Oscillator-circuit
-R2 | Resistor 2.2M Ω | 0603 SMD | Resistor in optional Oscillator-circuit
-R3 | Resistor 33 Ω | 0805 SMD | Series resistor for CLK from U9 to avoid reflections (in optional Oscillator-circuit).
+R1 | Resistor 1k Ω | 0603 | Resistor in optional Oscillator-circuit
+R2 | Resistor 2.2M Ω | 0603 | Resistor in optional Oscillator-circuit
+R3 | Resistor 33 Ω | 0805 | Series resistor for CLK from U9 to avoid reflections (in optional Oscillator-circuit).
+R4 | Resistor 10k Ω | 0603 | Pull-up resistor for pin 41 (PAL/NTSC-selector for A500 Rev.6A/A2000/A3000-pinout) since A500 Rev.6A doesn't have pull-up on motherboard like A2000/A3000/A3000T have. Only needed for A500 Rev.6A. but doesn't hurt to populate anyway. 
 RN1 | 4.7k or 10k Ω RES ARRAY 4 Resistors | 1206 | [CAY16-4701F4LF](https://www.mouser.com/ProductDetail/652-CAY16A-4701F4LF) or [CAY16-103J4LF](https://www.mouser.com/ProductDetail/652-CAY16-103J4LF)
 RN2 | 4.7k (CAY16-4701F4LF) RES ARRAY 4 Resistors | 1206 | [CAY16-4701F4LF](https://www.mouser.com/ProductDetail/652-CAY16A-4701F4LF)
 C1 | Capacitor Radial Polarized 100uF | 2.5mm pitch, Through-Hole | [ECE-A0JKA101I](https://www.mouser.com/ProductDetail/667-ECE-A0JKA101I)
