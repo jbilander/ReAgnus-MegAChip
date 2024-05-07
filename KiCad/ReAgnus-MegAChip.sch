@@ -963,7 +963,7 @@ Text GLabel 8450 4800 2    50   Output ~ 0
 LDS|UDS_3V3
 Text GLabel 7450 4600 0    50   Input ~ 0
 LDS|UDS
-Text GLabel 3150 6250 0    50   Input ~ 0
+Text GLabel 2850 6250 0    50   Input ~ 0
 GND|nNTSC_8372
 Text GLabel 4300 7550 0    50   Input ~ 0
 GND
@@ -1503,4 +1503,28 @@ F 3 "~" H 2250 6500 50  0001 C CNN
 	1    2250 6500
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 665CEE01
+P 3000 6050
+AR Path="/632F104D/665CEE01" Ref="R?"  Part="1" 
+AR Path="/665CEE01" Ref="R4"  Part="1" 
+F 0 "R4" V 3000 6050 50  0000 C CNN
+F 1 "10kΩ" H 3150 6050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 3000 6050 50  0001 C CNN
+F 3 "~" H 3000 6050 50  0001 C CNN
+	1    3000 6050
+	-1   0    0    1   
+$EndComp
+Text GLabel 3000 5850 1    50   Input ~ 0
+VCC
+Wire Wire Line
+	3000 5850 3000 5950
+Wire Wire Line
+	2850 6250 3000 6250
+Wire Wire Line
+	3000 6150 3000 6250
+Connection ~ 3000 6250
+Wire Wire Line
+	3000 6250 3150 6250
 $EndSCHEMATC
