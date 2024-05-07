@@ -57,7 +57,7 @@ U12 | PLCC-84_TH_pin_holes | Agnus_TH_plug_pins | Pins to use with homemade plug
 Y1 | 18pF Crystal 28.6363 MHz (NTSC) or 28.375 MHz (PAL) | 3.2 mm x 2.5 mm | [ECS-286.3-18-33-JEM-TR](https://www.mouser.com/ProductDetail/520-286.3-18-33-JEMT) (NTSC)<br /> [ABM8-28.375MHZ-B2-T](https://www.mouser.com/ProductDetail/815-ABM8-28.375-B2-T) (PAL)
 R1 | Resistor 1k Ω | 0603 | Resistor in optional Oscillator-circuit
 R2 | Resistor 2.2M Ω | 0603 | Resistor in optional Oscillator-circuit
-R3 | Resistor 33 Ω | 0805 | Series resistor for CLK from U9 to avoid reflections (in optional Oscillator-circuit).
+R3 | Resistor 33 Ω | 0603 | Series resistor for CLK from U9 to avoid reflections (in optional Oscillator-circuit).
 R4 | Resistor 10k Ω | 0603 | Pull-up resistor for pin 41 (PAL/NTSC-selector for A500 Rev.6A/A2000/A3000-pinout) since A500 Rev.6A doesn't have pull-up on motherboard like A2000/A3000/A3000T have. Only needed for A500 Rev.6A. but doesn't hurt to populate anyway. 
 RN1 | 4.7k or 10k Ω RES ARRAY 4 Resistors | 1206 | [CAY16-4701F4LF](https://www.mouser.com/ProductDetail/652-CAY16A-4701F4LF) or [CAY16-103J4LF](https://www.mouser.com/ProductDetail/652-CAY16-103J4LF)
 RN2 | 4.7k (CAY16-4701F4LF) RES ARRAY 4 Resistors | 1206 | [CAY16-4701F4LF](https://www.mouser.com/ProductDetail/652-CAY16A-4701F4LF)
