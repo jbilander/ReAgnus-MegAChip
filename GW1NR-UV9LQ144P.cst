@@ -1,0 +1,12 @@
+//Copyright (C)2014-2022 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: 1.9.8.08
+//Part Number: GW1NR-UV9LQ144PC6/I5
+//Device: GW1NR-9C
+//Created Time: Wed 05 08 14:44:06 2024
+
+IO_LOC "LED" 50;
+IO_PORT "LED" IO_TYPE=LVTTL33 PULL_MODE=NONE DRIVE=16;
+IO_LOC "C28M" 123;
+IO_PORT "C28M" IO_TYPE=LVTTL33 PULL_MODE=NONE;
