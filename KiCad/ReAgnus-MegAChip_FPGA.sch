@@ -277,7 +277,7 @@ GND
 Text GLabel 8850 3450 2    50   Input ~ 0
 3V3
 Text GLabel 8350 4650 0    50   Input ~ 0
-3V3
+DIR
 Wire Wire Line
 	8350 4150 8350 4250
 Connection ~ 8350 4250
@@ -305,7 +305,7 @@ Text GLabel 5850 6700 1    50   Input ~ 0
 GND
 Text GLabel 6450 7650 2    50   Output ~ 0
 GCLKT_1
-Text GLabel 6400 1700 2    50   Input ~ 0
+Text GLabel 6400 1600 2    50   Input ~ 0
 JP1
 Text GLabel 5850 7600 3    50   Input ~ 0
 3V3
@@ -610,5 +610,6 @@ NoConn ~ 1500 3300
 NoConn ~ 1500 2800
 NoConn ~ 1500 3000
 NoConn ~ 6400 1500
-NoConn ~ 6400 1600
+Text GLabel 6400 1700 2    50   Output ~ 0
+DIR
 $EndSCHEMATC
