@@ -101,15 +101,15 @@ Text GLabel 6400 2400 2    50   Output ~ 0
 CASU|CASL_3V3
 Text GLabel 6400 2300 2    50   BiDi ~ 0
 CASL|UDS_3V3
-Text GLabel 1500 3000 0    50   Output ~ 0
+Text GLabel 4900 850  1    50   Output ~ 0
 DRA4|DRA3_3V3
-Text GLabel 1500 3300 0    50   Output ~ 0
+Text GLabel 5000 850  1    50   Output ~ 0
 DRA3|DRA2_3V3
-Text GLabel 1500 4200 0    50   Output ~ 0
+Text GLabel 5100 850  1    50   Output ~ 0
 DRA2|DRA1_3V3
-Text GLabel 1500 4300 0    50   Output ~ 0
+Text GLabel 5200 850  1    50   Output ~ 0
 DRA1|DRA0_3V3
-Text GLabel 1500 4400 0    50   Output ~ 0
+Text GLabel 5300 850  1    50   Output ~ 0
 DRA0_3V3|GND
 Text GLabel 2450 5750 3    50   Output ~ 0
 BLIT_3V3
@@ -129,7 +129,7 @@ Text GLabel 1500 5000 0    50   Output ~ 0
 CCKQ|7M_3V3
 Text GLabel 1500 4600 0    50   Output ~ 0
 CCK|CCKQ_3V3
-Text GLabel 1500 4500 0    50   Output ~ 0
+Text GLabel 6400 1300 2    50   Output ~ 0
 14M|CCK_3V3
 Text GLabel 1500 4850 0    50   Output ~ 0
 7M|CDAC_3V3
@@ -438,16 +438,6 @@ Text GLabel 3250 850  1    50   Input ~ 0
 3V3
 Wire Wire Line
 	1950 850  2050 850 
-Connection ~ 2050 850 
-Wire Wire Line
-	2050 850  2150 850 
-Connection ~ 2150 850 
-Wire Wire Line
-	2150 850  2250 850 
-Connection ~ 2250 850 
-Wire Wire Line
-	2250 850  2350 850 
-Connection ~ 2350 850 
 Wire Wire Line
 	2350 850  2450 850 
 Connection ~ 2450 850 
@@ -500,20 +490,20 @@ Wire Wire Line
 Text GLabel 3950 4200 3    50   Input ~ 0
 GND
 Text GLabel 1500 2400 0    50   Input ~ 0
-3V3
+1V8
 Text GLabel 3850 5750 3    50   Input ~ 0
 XCLK|A20_3V3
-Text GLabel 1500 2150 0    50   Input ~ 0
+Text GLabel 4300 850  1    50   Input ~ 0
 LDS|UDS_3V3
-Text GLabel 1500 2250 0    50   BiDi ~ 0
+Text GLabel 4400 850  1    50   BiDi ~ 0
 DRA8|LDS_3V3
-Text GLabel 1500 2500 0    50   Output ~ 0
+Text GLabel 4500 850  1    50   Output ~ 0
 DRA8|DRA7_3V3
-Text GLabel 1500 2600 0    50   Output ~ 0
+Text GLabel 4600 850  1    50   Output ~ 0
 DRA7|DRA6_3V3
-Text GLabel 1500 2700 0    50   Output ~ 0
+Text GLabel 4700 850  1    50   Output ~ 0
 DRA6|DRA5_3V3
-Text GLabel 1500 2800 0    50   Output ~ 0
+Text GLabel 4800 850  1    50   Output ~ 0
 DRA5|DRA4_3V3
 Text GLabel 9000 1450 3    50   Input ~ 0
 nNTSC_8372_3V3
@@ -561,26 +551,12 @@ F 3 "~" H 6250 7650 50  0001 C CNN
 	1    6250 7650
 	0    -1   -1   0   
 $EndComp
-Text GLabel 6400 1800 2    50   Input ~ 0
+Text GLabel 6400 1800 2    50   Output ~ 0
 OE
 Wire Wire Line
 	6050 7650 6150 7650
 Wire Wire Line
 	6350 7650 6450 7650
-NoConn ~ 6400 1600
-NoConn ~ 6400 1500
-NoConn ~ 6400 1300
-NoConn ~ 5300 850 
-NoConn ~ 5200 850 
-NoConn ~ 5100 850 
-NoConn ~ 5000 850 
-NoConn ~ 4900 850 
-NoConn ~ 4800 850 
-NoConn ~ 4700 850 
-NoConn ~ 4600 850 
-NoConn ~ 4500 850 
-NoConn ~ 4400 850 
-NoConn ~ 4300 850 
 NoConn ~ 4200 850 
 NoConn ~ 4100 850 
 NoConn ~ 4000 850 
@@ -615,4 +591,24 @@ Text GLabel 10100 1450 3    50   Input ~ 0
 nNTSC
 NoConn ~ 1500 4000
 NoConn ~ 1500 2900
+NoConn ~ 1500 4500
+NoConn ~ 1500 4400
+NoConn ~ 1500 4300
+NoConn ~ 1500 4200
+Text GLabel 2150 850  1    50   Input ~ 0
+1V8
+Wire Wire Line
+	2150 850  2250 850 
+Text GLabel 1950 850  1    50   Input ~ 0
+3V3
+NoConn ~ 1500 2150
+NoConn ~ 1500 2250
+NoConn ~ 1500 2500
+NoConn ~ 1500 2600
+NoConn ~ 1500 2700
+NoConn ~ 1500 3300
+NoConn ~ 1500 2800
+NoConn ~ 1500 3000
+NoConn ~ 6400 1500
+NoConn ~ 6400 1600
 $EndSCHEMATC

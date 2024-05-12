@@ -974,7 +974,7 @@ Wire Wire Line
 Text GLabel 4300 6850 0    50   Input ~ 0
 3V3
 Text Notes 4050 6600 0    50   ~ 0
-Pulled-up with RN1 (10k)
+Pulled-up with RN1 (4.7k)
 $Comp
 L Device:C_Small C18
 U 1 1 6333CF1B
