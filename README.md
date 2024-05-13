@@ -41,7 +41,7 @@ https://github.com/jbilander/ReAgnus-MegAChip/tree/main/pics/hi-res
 
 ***
 
-BOM Rev. 2B
+BOM Rev. 2C
 ---------
 Designator  | Name/Value   | Package | Notes
 -|-|-|-|
@@ -52,24 +52,28 @@ U4,U5,U6,U7 | Digital Bus Switch ICs 20-Bit FET, SN74CBT16210CDGVR | TVSOP-48 | 
 U8 | 74LVC1G07 Single Buffer With Open-Drain Output | SOT-353, SC-70-5 | [74LVC1G07](https://www.mouser.com/ProductDetail/621-74LVC1G07SE-7)
 U9 | X-tal driver 74LVC1GX04  | TSOP-6 1.65x3.05mm P0.95mm | [74LVC1GX04](https://www.mouser.com/ProductDetail/771-LVC1GX04GV125)
 U10 | Bus Transceiver 74LVC245APW,118 | TSSOP-20 | [74LVC245APW-T](https://www.mouser.com/ProductDetail/771-74LVC245APW-T)
-U11 | Winslow PLCC-84 Plug | PLCC-84 Plug | Optionally homemade plug
-U12 | PLCC-84_TH_pin_holes | Agnus_TH_plug_pins | Pins to use with homemade plug, 1.27mm pitch Long Pin 1x40P or 1x50P [Aliexpress](https://www.aliexpress.com/item/32894911767.html) Cut to length after soldering.
+U11 | Voltage Regulator 1.8V, <br /> MCP1702T-1802E/CB | SOT-23 | 1.8V Low Drop-Out (LDO) Voltage regulator. [MCP1702T1802E-CB](https://www.mouser.com/ProductDetail/579-MCP1702T1802E-CB)
+U12 | Winslow PLCC-84 Plug | PLCC-84 Plug | Optionally homemade plug
+U13 | PLCC-84_TH_pin_holes | Agnus_TH_plug_pins | Pins to use with homemade plug, 1.27mm pitch Long Pin 1x40P or 1x50P [Aliexpress](https://www.aliexpress.com/item/32894911767.html) Cut to length after soldering.
 Y1 | 18pF Crystal 28.6363 MHz (NTSC) or 28.375 MHz (PAL) | 3.2 mm x 2.5 mm | [ECS-286.3-18-33-JEM-TR](https://www.mouser.com/ProductDetail/520-286.3-18-33-JEMT) (NTSC)<br /> [ABM8-28.375MHZ-B2-T](https://www.mouser.com/ProductDetail/815-ABM8-28.375-B2-T) (PAL)
 R1 | Resistor 1k Ω | 0603 | Resistor in optional Oscillator-circuit
 R2 | Resistor 2.2M Ω | 0603 | Resistor in optional Oscillator-circuit
 R3 | Resistor 33 Ω | 0603 | Series resistor for CLK from U9 to avoid reflections (in optional Oscillator-circuit).
 R4 | Resistor 10k Ω | 0603 | Pull-up resistor for pin 41 (PAL/NTSC-selector for A500 Rev.6A/A2000/A3000-pinout) since A500 Rev.6A doesn't have pull-up on motherboard like A2000/A3000/A3000T have. Only needed for A500 Rev.6A. but doesn't hurt to populate anyway. 
+R5 | Resistor 4.7k Ω | 0603 | Pull-down resistor for TCK in JTAG.
 RN1 | 4.7k or 10k Ω RES ARRAY 4 Resistors | 1206 | [CAY16-4701F4LF](https://www.mouser.com/ProductDetail/652-CAY16A-4701F4LF) or [CAY16-103J4LF](https://www.mouser.com/ProductDetail/652-CAY16-103J4LF)
 RN2 | 4.7k (CAY16-4701F4LF) RES ARRAY 4 Resistors | 1206 | [CAY16-4701F4LF](https://www.mouser.com/ProductDetail/652-CAY16A-4701F4LF)
 C1 | Capacitor Radial Polarized 100uF | 2.5mm pitch, Through-Hole | [ECE-A0JKA101I](https://www.mouser.com/ProductDetail/667-ECE-A0JKA101I)
 C2-C4 | Capacitor 10uF | 1206 | 
 C5 | Capacitor 1uF | 0805 | 
 C6-C16 | Capacitor 0.1uF = 100nF | 0805 |
-C17-C20 | Capacitor 0.01uF = 10nF | 0805 or 0603 |
+C17-C19 | Capacitor 0.01uF = 10nF | 0805 (or 0603) |
+C20 | Capacitor 0.1uF = 100nF | 0603 | Decoupling cap for U8
 C21-C24 | Capacitor 0.1uF = 100nF | 0603 | Decoupling caps for U4-U7
 C25 | Capacitor 0.1uF = 100nF | 0603 | Optional cap for U3, NR (Noise Reduction) pin 4 on TPS73643DBVR, this pin is NC on ABLIC S-1200B43-M5T1U
-C26-C27 | Capacitor 0.01uF = 10nF | 0603 |
-C28-C29 | Multilayer Ceramic Capacitors MLCC - 32pF | 0603 | [06031A320FAT2A ](https://www.mouser.com/ProductDetail/581-06031A320FAT2A) Caps for optional oscillator circuit 
+C26-C28 | Capacitor 0.01uF = 10nF | 0603 |
+C29-C30 | Multilayer Ceramic Capacitors MLCC - 32pF | 0603 | [06031A320FAT2A ](https://www.mouser.com/ProductDetail/581-06031A320FAT2A) Caps for optional oscillator circuit 
+L1 | SMD Stacked Inductor 10uH | 0805 |
 J1 | VCC/GND Power Header Male | TH 1 x 2 Pin, 2.54mm pitch | For external power supply to allow programming of device when not plugged into the Amiga socket.
 J2 | JTAG Pin Header Male | TH 2 x 5 Pin, 2.54mm pitch|
 J3 | A20-A23 Pin Header Male | TH 2 x 2 Pin, 2.00mm pitch | Input Address lines for jumper-wires A20-A23
