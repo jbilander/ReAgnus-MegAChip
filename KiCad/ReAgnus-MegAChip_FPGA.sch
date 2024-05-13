@@ -101,15 +101,15 @@ Text GLabel 6400 2400 2    50   Output ~ 0
 CASU|CASL_3V3
 Text GLabel 6400 2300 2    50   BiDi ~ 0
 CASL|UDS_3V3
-Text GLabel 1500 3000 0    50   Output ~ 0
+Text GLabel 4900 850  1    50   Output ~ 0
 DRA4|DRA3_3V3
-Text GLabel 1500 3300 0    50   Output ~ 0
+Text GLabel 5000 850  1    50   Output ~ 0
 DRA3|DRA2_3V3
-Text GLabel 1500 4200 0    50   Output ~ 0
+Text GLabel 5100 850  1    50   Output ~ 0
 DRA2|DRA1_3V3
-Text GLabel 1500 4300 0    50   Output ~ 0
+Text GLabel 5200 850  1    50   Output ~ 0
 DRA1|DRA0_3V3
-Text GLabel 1500 4400 0    50   Output ~ 0
+Text GLabel 5300 850  1    50   Output ~ 0
 DRA0_3V3|GND
 Text GLabel 2450 5750 3    50   Output ~ 0
 BLIT_3V3
@@ -129,7 +129,7 @@ Text GLabel 1500 5000 0    50   Output ~ 0
 CCKQ|7M_3V3
 Text GLabel 1500 4600 0    50   Output ~ 0
 CCK|CCKQ_3V3
-Text GLabel 1500 4500 0    50   Output ~ 0
+Text GLabel 6400 1300 2    50   Output ~ 0
 14M|CCK_3V3
 Text GLabel 1500 4850 0    50   Output ~ 0
 7M|CDAC_3V3
@@ -214,13 +214,13 @@ Text GLabel 1500 4100 0    50   Input ~ 0
 nNTSC_8372_3V3
 Text GLabel 3700 850  1    50   Input ~ 0
 nNTSC
-Text GLabel 8350 3750 0    50   Input ~ 0
+Text GLabel 8800 3100 0    50   Input ~ 0
 A20
-Text GLabel 8350 3850 0    50   Input ~ 0
+Text GLabel 8800 3200 0    50   Input ~ 0
 A21
-Text GLabel 8350 3950 0    50   Input ~ 0
+Text GLabel 8800 3300 0    50   Input ~ 0
 A22
-Text GLabel 8350 4050 0    50   Input ~ 0
+Text GLabel 8800 3400 0    50   Input ~ 0
 A23
 Text GLabel 7600 2350 0    50   Input ~ 0
 A22
@@ -241,17 +241,17 @@ Text GLabel 8100 2450 2    50   Input ~ 0
 A21
 Text GLabel 8100 2350 2    50   Input ~ 0
 A20
-Text GLabel 8350 4450 0    50   Input ~ 0
+Text GLabel 8800 3800 0    50   Input ~ 0
 GND
-Text GLabel 8350 4750 0    50   Input ~ 0
+Text GLabel 8800 4100 0    50   Input ~ 0
 OE
-Text GLabel 9350 3750 2    50   Output ~ 0
+Text GLabel 9800 3100 2    50   Output ~ 0
 A20_3V3
-Text GLabel 9350 3850 2    50   Output ~ 0
+Text GLabel 9800 3200 2    50   Output ~ 0
 A21_3V3
-Text GLabel 9350 3950 2    50   Output ~ 0
+Text GLabel 9800 3300 2    50   Output ~ 0
 A22_3V3
-Text GLabel 9350 4050 2    50   Output ~ 0
+Text GLabel 9800 3400 2    50   Output ~ 0
 A23_3V3
 Text GLabel 6400 1900 2    50   Input ~ 0
 A20_3V3
@@ -264,32 +264,32 @@ A23_3V3
 $Comp
 L ReAgnus-MegAChip:74LVC245A U10
 U 1 1 6376E0A1
-P 8850 4250
-F 0 "U10" H 8850 5231 50  0000 C CNN
-F 1 "74LVC245A" H 8850 5140 50  0000 C CNN
-F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 8850 4250 50  0001 C CNN
-F 3 "https://www.mouser.se/datasheet/2/916/74LVC_LVCH245A-1389000.pdf" H 8850 4250 50  0001 C CNN
-	1    8850 4250
+P 9300 3600
+F 0 "U10" H 9300 4581 50  0000 C CNN
+F 1 "74LVC245A" H 9300 4490 50  0000 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 9300 3600 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/916/74LVC_LVCH245A-1389000.pdf" H 9300 3600 50  0001 C CNN
+	1    9300 3600
 	1    0    0    -1  
 $EndComp
-Text GLabel 8850 5050 3    50   Input ~ 0
+Text GLabel 9300 4400 3    50   Input ~ 0
 GND
-Text GLabel 8850 3450 2    50   Input ~ 0
+Text GLabel 9300 2800 2    50   Input ~ 0
 3V3
-Text GLabel 8350 4650 0    50   Input ~ 0
-3V3
+Text GLabel 8800 4000 0    50   Input ~ 0
+DIR
 Wire Wire Line
-	8350 4150 8350 4250
-Connection ~ 8350 4250
+	8800 3500 8800 3600
+Connection ~ 8800 3600
 Wire Wire Line
-	8350 4250 8350 4350
-Connection ~ 8350 4350
+	8800 3600 8800 3700
+Connection ~ 8800 3700
 Wire Wire Line
-	8350 4350 8350 4450
-NoConn ~ 9350 4150
-NoConn ~ 9350 4250
-NoConn ~ 9350 4350
-NoConn ~ 9350 4450
+	8800 3700 8800 3800
+NoConn ~ 9800 3500
+NoConn ~ 9800 3600
+NoConn ~ 9800 3700
+NoConn ~ 9800 3800
 $Comp
 L ReAgnus-MegAChip:74LVC1GX04 U9
 U 1 1 637F9038
@@ -305,7 +305,7 @@ Text GLabel 5850 6700 1    50   Input ~ 0
 GND
 Text GLabel 6450 7650 2    50   Output ~ 0
 GCLKT_1
-Text GLabel 6400 1700 2    50   Input ~ 0
+Text GLabel 6400 1600 2    50   Input ~ 0
 JP1
 Text GLabel 5850 7600 3    50   Input ~ 0
 3V3
@@ -332,8 +332,8 @@ U 1 1 6383AF05
 P 4500 7400
 AR Path="/6383AF05" Ref="C?"  Part="1" 
 AR Path="/632D3BDF/6383AF05" Ref="C?"  Part="1" 
-AR Path="/632F104D/6383AF05" Ref="C28"  Part="1" 
-F 0 "C28" V 4650 7350 50  0000 L CNN
+AR Path="/632F104D/6383AF05" Ref="C29"  Part="1" 
+F 0 "C29" V 4650 7350 50  0000 L CNN
 F 1 "32pF" V 4750 7350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4500 7400 50  0001 C CNN
 F 3 "~" H 4500 7400 50  0001 C CNN
@@ -382,8 +382,8 @@ U 1 1 63835116
 P 4500 6900
 AR Path="/63835116" Ref="C?"  Part="1" 
 AR Path="/632D3BDF/63835116" Ref="C?"  Part="1" 
-AR Path="/632F104D/63835116" Ref="C29"  Part="1" 
-F 0 "C29" V 4350 6850 50  0000 L CNN
+AR Path="/632F104D/63835116" Ref="C30"  Part="1" 
+F 0 "C30" V 4350 6850 50  0000 L CNN
 F 1 "32pF" V 4250 6850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4500 6900 50  0001 C CNN
 F 3 "~" H 4500 6900 50  0001 C CNN
@@ -438,16 +438,6 @@ Text GLabel 3250 850  1    50   Input ~ 0
 3V3
 Wire Wire Line
 	1950 850  2050 850 
-Connection ~ 2050 850 
-Wire Wire Line
-	2050 850  2150 850 
-Connection ~ 2150 850 
-Wire Wire Line
-	2150 850  2250 850 
-Connection ~ 2250 850 
-Wire Wire Line
-	2250 850  2350 850 
-Connection ~ 2350 850 
 Wire Wire Line
 	2350 850  2450 850 
 Connection ~ 2450 850 
@@ -500,20 +490,20 @@ Wire Wire Line
 Text GLabel 3950 4200 3    50   Input ~ 0
 GND
 Text GLabel 1500 2400 0    50   Input ~ 0
-3V3
+VCCIO3
 Text GLabel 3850 5750 3    50   Input ~ 0
 XCLK|A20_3V3
-Text GLabel 1500 2150 0    50   Input ~ 0
+Text GLabel 4300 850  1    50   Input ~ 0
 LDS|UDS_3V3
-Text GLabel 1500 2250 0    50   BiDi ~ 0
+Text GLabel 4400 850  1    50   BiDi ~ 0
 DRA8|LDS_3V3
-Text GLabel 1500 2500 0    50   Output ~ 0
+Text GLabel 4500 850  1    50   Output ~ 0
 DRA8|DRA7_3V3
-Text GLabel 1500 2600 0    50   Output ~ 0
+Text GLabel 4600 850  1    50   Output ~ 0
 DRA7|DRA6_3V3
-Text GLabel 1500 2700 0    50   Output ~ 0
+Text GLabel 4700 850  1    50   Output ~ 0
 DRA6|DRA5_3V3
-Text GLabel 1500 2800 0    50   Output ~ 0
+Text GLabel 4800 850  1    50   Output ~ 0
 DRA5|DRA4_3V3
 Text GLabel 9000 1450 3    50   Input ~ 0
 nNTSC_8372_3V3
@@ -544,7 +534,7 @@ F 3 "~" H 9200 1250 50  0001 C CNN
 	1    9200 1250
 	1    0    0    -1  
 $EndComp
-Text GLabel 10200 1450 3    50   Input ~ 0
+Text GLabel 10700 1450 3    50   Input ~ 0
 TCK
 Text GLabel 9900 1450 3    50   Input ~ 0
 MODE0
@@ -561,26 +551,12 @@ F 3 "~" H 6250 7650 50  0001 C CNN
 	1    6250 7650
 	0    -1   -1   0   
 $EndComp
-Text GLabel 6400 1800 2    50   Input ~ 0
+Text GLabel 6400 1800 2    50   Output ~ 0
 OE
 Wire Wire Line
 	6050 7650 6150 7650
 Wire Wire Line
 	6350 7650 6450 7650
-NoConn ~ 6400 1600
-NoConn ~ 6400 1500
-NoConn ~ 6400 1300
-NoConn ~ 5300 850 
-NoConn ~ 5200 850 
-NoConn ~ 5100 850 
-NoConn ~ 5000 850 
-NoConn ~ 4900 850 
-NoConn ~ 4800 850 
-NoConn ~ 4700 850 
-NoConn ~ 4600 850 
-NoConn ~ 4500 850 
-NoConn ~ 4400 850 
-NoConn ~ 4300 850 
 NoConn ~ 4200 850 
 NoConn ~ 4100 850 
 NoConn ~ 4000 850 
@@ -597,22 +573,132 @@ F 3 "~" H 10100 1250 50  0001 C CNN
 	1    10100 1250
 	1    0    0    -1  
 $EndComp
-Text GLabel 10100 1050 1    50   Input ~ 0
+Text GLabel 10200 1050 1    50   Input ~ 0
 3V3
-Text GLabel 9900 800  1    50   Input ~ 0
+Text GLabel 9900 1050 1    50   Input ~ 0
 GND
 Wire Wire Line
 	9900 1050 10000 1050
-Wire Wire Line
-	9900 1050 9900 800 
-Connection ~ 9900 1050
-Wire Wire Line
-	9900 800  10200 800 
-Wire Wire Line
-	10200 800  10200 1050
 NoConn ~ 3500 5750
 Text GLabel 10100 1450 3    50   Input ~ 0
 nNTSC
 NoConn ~ 1500 4000
 NoConn ~ 1500 2900
+NoConn ~ 1500 4500
+NoConn ~ 1500 4400
+NoConn ~ 1500 4300
+NoConn ~ 1500 4200
+Text GLabel 2150 850  1    50   Input ~ 0
+VCCIO3
+Wire Wire Line
+	2150 850  2250 850 
+Text GLabel 1950 850  1    50   Input ~ 0
+3V3
+NoConn ~ 1500 2150
+NoConn ~ 1500 2250
+NoConn ~ 1500 2500
+NoConn ~ 1500 2600
+NoConn ~ 1500 2700
+NoConn ~ 1500 3300
+NoConn ~ 1500 2800
+NoConn ~ 1500 3000
+NoConn ~ 6400 1500
+Text GLabel 6400 1700 2    50   Output ~ 0
+DIR
+$Comp
+L ReAgnus-MegAChip:MCP1702T-1802E_CB U11
+U 1 1 6677605D
+P 9300 5300
+F 0 "U11" H 9300 5615 50  0000 C CNN
+F 1 "MCP1702T-1802E_CB" H 9300 5524 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 9700 5450 50  0001 L CNN
+F 3 "" H 9700 5350 50  0001 L CNN
+	1    9300 5300
+	1    0    0    -1  
+$EndComp
+Text GLabel 9850 5250 2    50   Input ~ 0
+3V3
+Text GLabel 8350 5250 1    50   Input ~ 0
+GND
+Text GLabel 8750 5450 3    50   Output ~ 0
+1V8
+$Comp
+L Device:C_Small C?
+U 1 1 66807BC8
+P 8600 5350
+AR Path="/66807BC8" Ref="C?"  Part="1" 
+AR Path="/632D3BDF/66807BC8" Ref="C?"  Part="1" 
+AR Path="/632F104D/66807BC8" Ref="C6"  Part="1" 
+F 0 "C6" H 8550 5200 50  0000 L CNN
+F 1 "0.1uF" H 8600 5100 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8600 5350 50  0001 C CNN
+F 3 "~" H 8600 5350 50  0001 C CNN
+	1    8600 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 5350 8750 5450
+Wire Wire Line
+	8750 5450 8600 5450
+Connection ~ 8600 5450
+Wire Wire Line
+	8600 5450 8450 5450
+Connection ~ 8600 5250
+Wire Wire Line
+	8600 5250 8750 5250
+$Comp
+L Device:L_Small L1
+U 1 1 6686F06F
+P 8350 5450
+F 0 "L1" V 8300 5400 50  0000 L CNN
+F 1 "10uH" V 8450 5350 50  0000 L CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder" H 8350 5450 50  0001 C CNN
+F 3 "~" H 8350 5450 50  0001 C CNN
+	1    8350 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 668717A8
+P 8100 5350
+AR Path="/668717A8" Ref="C?"  Part="1" 
+AR Path="/632D3BDF/668717A8" Ref="C?"  Part="1" 
+AR Path="/632F104D/668717A8" Ref="C28"  Part="1" 
+F 0 "C28" H 7850 5400 50  0000 L CNN
+F 1 "0.01uF" H 8100 5100 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 8100 5350 50  0001 C CNN
+F 3 "~" H 8100 5350 50  0001 C CNN
+	1    8100 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 5450 8100 5450
+Connection ~ 8100 5450
+Wire Wire Line
+	8100 5450 7950 5450
+Wire Wire Line
+	8100 5250 8600 5250
+Text GLabel 7950 5450 0    50   Output ~ 0
+VCCIO3
+Text GLabel 10200 1450 3    50   Input ~ 0
+TDO
+Wire Wire Line
+	10100 1050 10200 1050
+Text GLabel 10700 1050 1    50   Input ~ 0
+GND
+Wire Wire Line
+	10700 1350 10700 1450
+Wire Wire Line
+	10700 1050 10700 1150
+$Comp
+L Device:R_Small R5
+U 1 1 668F1087
+P 10700 1250
+F 0 "R5" V 10700 1250 50  0000 C CNN
+F 1 "4.7k" H 10550 1250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 10700 1250 50  0001 C CNN
+F 3 "~" H 10700 1250 50  0001 C CNN
+	1    10700 1250
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
