@@ -66,14 +66,17 @@ RN2 | 4.7k (CAY16-4701F4LF) RES ARRAY 4 Resistors | 1206 | [CAY16-4701F4LF](http
 C1 | Capacitor Radial Polarized 100uF | 2.5mm pitch, Through-Hole | [ECE-A0JKA101I](https://www.mouser.com/ProductDetail/667-ECE-A0JKA101I)
 C2-C4 | Capacitor 10uF | 1206 | 
 C5 | Capacitor 1uF | 0805 | 
-C6-C16 | Capacitor 0.1uF = 100nF | 0805 |
+C6 | Capacitor 10uF | 0805 |
+C9 | Capacitor 1uF | 0805 |
+C7,C8,C10-C16 | Capacitor 0.1uF = 100nF | 0805 |
 C17-C19 | Capacitor 0.01uF = 10nF | 0805 (or 0603) |
 C20 | Capacitor 0.1uF = 100nF | 0603 | Decoupling cap for U8
 C21-C24 | Capacitor 0.1uF = 100nF | 0603 | Decoupling caps for U4-U7
 C25 | Capacitor 0.1uF = 100nF | 0603 | Optional cap for U3, NR (Noise Reduction) pin 4 on TPS73643DBVR, this pin is NC on ABLIC S-1200B43-M5T1U
-C26-C28 | Capacitor 0.01uF = 10nF | 0603 |
+C26 | Capacitor 0.01uF = 10nF | 0603 |
+C27-C28 | Capacitor 0.1uF = 100nF | 0603 |
 C29-C30 | Multilayer Ceramic Capacitors MLCC - 32pF | 0603 | [06031A320FAT2A ](https://www.mouser.com/ProductDetail/581-06031A320FAT2A) Caps for optional oscillator circuit 
-L1 | SMD Stacked Inductor 10uH | 0805 |
+L1 | Ferrite Bead 600ohms 100MHz .5A Monolithic | 0805 | [HZ0805E601R-10](https://www.mouser.com/ProductDetail/875-HZ0805E601R-10)
 J1 | VCC/GND Power Header Male | TH 1 x 2 Pin, 2.54mm pitch | For external power supply to allow programming of device when not plugged into the Amiga socket.
 J2 | JTAG Pin Header Male | TH 2 x 5 Pin, 2.54mm pitch|
 J3 | A20-A23 Pin Header Male | TH 2 x 2 Pin, 2.00mm pitch | Input Address lines for jumper-wires A20-A23
