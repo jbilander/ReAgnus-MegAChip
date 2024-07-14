@@ -76,7 +76,7 @@ C25 | Capacitor 0.1uF = 100nF | 0603 | Optional cap for U3, NR (Noise Reduction)
 C26 | Capacitor 0.01uF = 10nF | 0603 |
 C27-C28 | Capacitor 0.1uF = 100nF | 0603 |
 C29-C30 | Multilayer Ceramic Capacitors MLCC - 32pF | 0603 | [06031A320FAT2A ](https://www.mouser.com/ProductDetail/581-06031A320FAT2A) Caps for optional oscillator circuit 
-L1 | Ferrite Bead 600ohms 100MHz .5A Monolithic | 0805 | [HZ0805E601R-10](https://www.mouser.com/ProductDetail/875-HZ0805E601R-10)
+L1 | (Ferrite Bead 600ohms 100MHz .5A Monolithic) or 0 Ω resistor  | 0805 | [HZ0805E601R-10](https://www.mouser.com/ProductDetail/875-HZ0805E601R-10) or 0 Ω resistor 
 J1 | VCC/GND Power Header Male | TH 1 x 2 Pin, 2.54mm pitch | For external power supply to allow programming of device when not plugged into the Amiga socket.
 J2 | JTAG Pin Header Male | TH 2 x 5 Pin, 2.54mm pitch|
 J3 | A20-A23 Pin Header Male | TH 2 x 2 Pin, 2.00mm pitch | Input Address lines for jumper-wires A20-A23
