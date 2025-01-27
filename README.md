@@ -47,7 +47,7 @@ Designator  | Name/Value   | Package | Notes
 -|-|-|-|
 U1 | Gowin FPGA GW1NR-UV9LQ144PC6/I5 | LQFP-144 | FPGA - Field Programmable Gate Array, 8640 LE, 121 I/O, Embedded 64Mbit 16-bit PSRAM <br /> [GW1NR-UV9LQ144PC6/I5](https://www.mouser.com/ProductDetail/192-1NRUV9LQ144PC6I5)
 U2 | Voltage Regulator 3.3V, <br /> LM1117-3.3 or <br /> AMS1117-3.3 | SOT-223 | 3.3V 1A Low Drop-Out (LDO) Voltage regulator. https://www.aliexpress.com/item/32869037691.html
-U3 | Voltage Regulator 4.3V, TPS73643DBVR or <br /> ABLIC S-1200B43-M5T1U | SOT-23-5 | 4.3V LDO Voltage Regulator<br />[TPS73643DBVR](https://www.mouser.com/ProductDetail/595-TPS73643DBVR) <br />[S-1200B43-M5T1U](https://www.mouser.com/ProductDetail/628-S-1200B43-M5T1G)
+U3 | Voltage Regulator 4.3V, TPS73643DBVR or <br /> ABLIC S-1132B43-M5T1U | SOT-23-5 | 4.3V LDO Voltage Regulator<br />[TPS73643DBVR](https://www.mouser.com/ProductDetail/595-TPS73643DBVR) <br />[S-1132B43-M5T1U](https://www.mouser.com/ProductDetail/628-S-1132B43-M5T1G)
 U4,U5,U6,U7 | Digital Bus Switch ICs 20-Bit FET, SN74CBT16210CDGVR | TVSOP-48 | FET Level-shifter <br /> [SN74CBT16210CDGVR](https://www.mouser.com/ProductDetail/595-SN74CBT16210CDGV)
 U8 | 74LVC1G07 Single Buffer With Open-Drain Output | SOT-353, SC-70-5 | [74LVC1G07](https://www.mouser.com/ProductDetail/621-74LVC1G07SE-7)
 U9 | X-tal driver 74LVC1GX04  | TSOP-6 1.65x3.05mm P0.95mm | [74LVC1GX04](https://www.mouser.com/ProductDetail/771-LVC1GX04GV125)
